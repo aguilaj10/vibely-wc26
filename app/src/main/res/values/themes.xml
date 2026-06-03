@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Minimal XML theme. All real theming happens in Compose (PaniniWC26Theme). -->
+    <style name="Theme.PaniniWC26" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.google.com)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "Read(//private/tmp/panini-wc-2026/**)",
+      "Bash(awk -F'\",\"' 'NR>1 {gsub\\(/\"/, \"\", $2\\); print $2}' master.csv)",
+      "Bash(curl -sL https://docs.google.com/spreadsheets/d/1qsuD0rqY-f6zFc5lgAhs8O4OdTH8ekx6NnAZEzbqnhI/htmlview -o /tmp/panini-wc-2026/sheet.html)",
+      "Read(//tmp/panini-wc-2026/**)",
+      "Bash(python3 build_catalog.py)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('stickers.json'\\)\\); print\\(json.dumps\\({k:d[k] for k in ['version','source','generatedAt','meta']}, indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('stickers.json'\\)\\); [print\\(t\\) for t in d['teams'] if t['group']=='A']\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('stickers.json'\\)\\); mex=[s for s in d['stickers'] if s['teamCode']=='MEX']; [print\\(s\\) for s in mex[:5]]; print\\('...'\\); [print\\(s\\) for s in mex if 'Á' in s['displayName'] or 'É' in s['displayName'] or 'Í' in s['displayName'] or 'Ó' in s['displayName'] or 'Ú' in s['displayName']][:5]\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('stickers.json'\\)\\); sp=[s for s in d['stickers'] if s['section'] is not None]; [print\\(s\\) for s in sp[:5]]\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('stickers.json'\\)\\); [print\\(s['id'], s['teamCode'], s['displayName']\\) for s in d['stickers'] if s['teamCode'] in \\('HAI','POR','ENG'\\) and s['slotIndex']==1]\")",
+      "Bash(mkdir -p data)",
+      "Bash(cp /tmp/panini-wc-2026/stickers.json data/stickers.json)",
+      "Bash(rm -rf /tmp/panini-wc-2026)",
+      "Bash(mkdir -p app/src/main/assets)",
+      "Bash(mv data/stickers.json app/src/main/assets/stickers.json)",
+      "Bash(rmdir data *)",
+      "Bash(curl -sL \"https://plugins.gradle.org/m2/com/google/devtools/ksp/com.google.devtools.ksp.gradle.plugin/maven-metadata.xml\")",
+      "Bash(curl -sL \"https://repo.maven.apache.org/maven2/com/google/devtools/ksp/symbol-processing-gradle-plugin/maven-metadata.xml\")",
+      "Bash(curl -sL \"https://plugins.gradle.org/m2/org/jetbrains/kotlin/android/org.jetbrains.kotlin.android.gradle.plugin/maven-metadata.xml\")",
+      "Bash(curl -sL \"https://plugins.gradle.org/m2/com/android/application/com.android.application.gradle.plugin/maven-metadata.xml\")",
+      "Bash(curl -sL \"https://plugins.gradle.org/m2/com/google/dagger/hilt/android/com.google.dagger.hilt.android.gradle.plugin/maven-metadata.xml\")",
+      "Bash(./gradlew :app:assembleDebug --no-configuration-cache)",
+      "Read(//tmp/**)",
+      "Bash(adb devices *)",
+      "Bash(adb install *)",
+      "Bash(adb shell *)",
+      "Bash(adb exec-out *)"
+    ]
+  }
+}

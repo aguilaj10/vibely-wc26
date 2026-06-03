@@ -1,0 +1,9262 @@
+{
+  "version": "2026.1",
+  "source": "Panini FIFA World Cup 2026 album",
+  "generatedAt": "2026-06-03T00:10:07Z",
+  "meta": {
+    "totalStickers": 994,
+    "totalTeams": 48,
+    "totalSpecials": 34,
+    "groups": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L"
+    ]
+  },
+  "teams": [
+    {
+      "code": "MEX",
+      "name": "Mexico",
+      "group": "A",
+      "seed": 1
+    },
+    {
+      "code": "RSA",
+      "name": "South Africa",
+      "group": "A",
+      "seed": 2
+    },
+    {
+      "code": "KOR",
+      "name": "South Korea",
+      "group": "A",
+      "seed": 3
+    },
+    {
+      "code": "CZE",
+      "name": "Czechia",
+      "group": "A",
+      "seed": 4
+    },
+    {
+      "code": "CAN",
+      "name": "Canada",
+      "group": "B",
+      "seed": 1
+    },
+    {
+      "code": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "group": "B",
+      "seed": 2
+    },
+    {
+      "code": "QAT",
+      "name": "Qatar",
+      "group": "B",
+      "seed": 3
+    },
+    {
+      "code": "SUI",
+      "name": "Switzerland",
+      "group": "B",
+      "seed": 4
+    },
+    {
+      "code": "BRA",
+      "name": "Brazil",
+      "group": "C",
+      "seed": 1
+    },
+    {
+      "code": "MAR",
+      "name": "Morocco",
+      "group": "C",
+      "seed": 2
+    },
+    {
+      "code": "HAI",
+      "name": "Haiti",
+      "group": "C",
+      "seed": 3
+    },
+    {
+      "code": "SCO",
+      "name": "Scotland",
+      "group": "C",
+      "seed": 4
+    },
+    {
+      "code": "USA",
+      "name": "United States",
+      "group": "D",
+      "seed": 1
+    },
+    {
+      "code": "PAR",
+      "name": "Paraguay",
+      "group": "D",
+      "seed": 2
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "group": "D",
+      "seed": 3
+    },
+    {
+      "code": "TUR",
+      "name": "Türkiye",
+      "group": "D",
+      "seed": 4
+    },
+    {
+      "code": "GER",
+      "name": "Germany",
+      "group": "E",
+      "seed": 1
+    },
+    {
+      "code": "CUW",
+      "name": "Curaçao",
+      "group": "E",
+      "seed": 2
+    },
+    {
+      "code": "CIV",
+      "name": "Côte d'Ivoire",
+      "group": "E",
+      "seed": 3
+    },
+    {
+      "code": "ECU",
+      "name": "Ecuador",
+      "group": "E",
+      "seed": 4
+    },
+    {
+      "code": "NED",
+      "name": "Netherlands",
+      "group": "F",
+      "seed": 1
+    },
+    {
+      "code": "JAP",
+      "name": "Japan",
+      "group": "F",
+      "seed": 2
+    },
+    {
+      "code": "SWE",
+      "name": "Sweden",
+      "group": "F",
+      "seed": 3
+    },
+    {
+      "code": "TUN",
+      "name": "Tunisia",
+      "group": "F",
+      "seed": 4
+    },
+    {
+      "code": "BEL",
+      "name": "Belgium",
+      "group": "G",
+      "seed": 1
+    },
+    {
+      "code": "EGY",
+      "name": "Egypt",
+      "group": "G",
+      "seed": 2
+    },
+    {
+      "code": "IRN",
+      "name": "Iran",
+      "group": "G",
+      "seed": 3
+    },
+    {
+      "code": "NZL",
+      "name": "New Zealand",
+      "group": "G",
+      "seed": 4
+    },
+    {
+      "code": "ESP",
+      "name": "Spain",
+      "group": "H",
+      "seed": 1
+    },
+    {
+      "code": "CPV",
+      "name": "Cape Verde",
+      "group": "H",
+      "seed": 2
+    },
+    {
+      "code": "KSA",
+      "name": "Saudi Arabia",
+      "group": "H",
+      "seed": 3
+    },
+    {
+      "code": "URU",
+      "name": "Uruguay",
+      "group": "H",
+      "seed": 4
+    },
+    {
+      "code": "FRA",
+      "name": "France",
+      "group": "I",
+      "seed": 1
+    },
+    {
+      "code": "SEN",
+      "name": "Senegal",
+      "group": "I",
+      "seed": 2
+    },
+    {
+      "code": "IRQ",
+      "name": "Iraq",
+      "group": "I",
+      "seed": 3
+    },
+    {
+      "code": "NOR",
+      "name": "Norway",
+      "group": "I",
+      "seed": 4
+    },
+    {
+      "code": "ARG",
+      "name": "Argentina",
+      "group": "J",
+      "seed": 1
+    },
+    {
+      "code": "ALG",
+      "name": "Algeria",
+      "group": "J",
+      "seed": 2
+    },
+    {
+      "code": "AUT",
+      "name": "Austria",
+      "group": "J",
+      "seed": 3
+    },
+    {
+      "code": "JOR",
+      "name": "Jordan",
+      "group": "J",
+      "seed": 4
+    },
+    {
+      "code": "POR",
+      "name": "Portugal",
+      "group": "K",
+      "seed": 1
+    },
+    {
+      "code": "COD",
+      "name": "DR Congo",
+      "group": "K",
+      "seed": 2
+    },
+    {
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "group": "K",
+      "seed": 3
+    },
+    {
+      "code": "COL",
+      "name": "Colombia",
+      "group": "K",
+      "seed": 4
+    },
+    {
+      "code": "ENG",
+      "name": "England",
+      "group": "L",
+      "seed": 1
+    },
+    {
+      "code": "CRO",
+      "name": "Croatia",
+      "group": "L",
+      "seed": 2
+    },
+    {
+      "code": "GHA",
+      "name": "Ghana",
+      "group": "L",
+      "seed": 3
+    },
+    {
+      "code": "PAN",
+      "name": "Panama",
+      "group": "L",
+      "seed": 4
+    }
+  ],
+  "stickers": [
+    {
+      "id": "MEX01",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "BADGE",
+      "displayName": "Mexico",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "MEX02",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Luis Malagón",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "MEX03",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Johan Vásquez",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "MEX04",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Jorge Sánchez",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "MEX05",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "César Montes",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "MEX06",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Jesús Gallardo",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "MEX07",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Israel Reyes",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "MEX08",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Diego Lainez",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "MEX09",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Carlos Rodríguez",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "MEX10",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Edson Álvarez",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "MEX11",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Orbelín Pineda",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "MEX12",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Marcel Ruíz",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "MEX13",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "TEAM",
+      "displayName": "Mexico",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "MEX14",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Erick Sánchez",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "MEX15",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Hirving Lozano",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "MEX16",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Santiago Giménez",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "MEX17",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Raúl Jiménez",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "MEX18",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Alexis Vega",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "MEX19",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Roberto Alvarado",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "MEX20",
+      "teamCode": "MEX",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "César Huerta",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "RSA01",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "BADGE",
+      "displayName": "South Africa",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "RSA02",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Ronwen Williams",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "RSA03",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Sipho Chaine",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "RSA04",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Aubrey Modiba",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "RSA05",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Samukele Kabini",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "RSA06",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Mbekezli Mbokazi",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "RSA07",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Khulumani Ndamane",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "RSA08",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Sivabonga Ngezana",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "RSA09",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Khuliso Mudau",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "RSA10",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Nkosinathi Sibisi",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "RSA11",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Teboho Mokoena",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "RSA12",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Thalente Mbatha",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "RSA13",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "TEAM",
+      "displayName": "South Africa",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "RSA14",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Bathusi Aubaas",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "RSA15",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Vaya Sithole",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "RSA16",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Sipho Mbule",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "RSA17",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Lyle Foster",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "RSA18",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Ioraam Ravners",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "RSA19",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Mohau Nkota",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "RSA20",
+      "teamCode": "RSA",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Oswin Apollis",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "KOR01",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "BADGE",
+      "displayName": "South Korea",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "KOR02",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Hyeonwoo Jo",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "KOR03",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Seunggyu Kim",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "KOR04",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Mijnae Kim",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "KOR05",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Yumin Cho",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "KOR06",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Youngwoo Seol",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "KOR07",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Hanbeom Lee",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "KOR08",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Taeseok Lee",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "KOR09",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Muyngjae Lee",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "KOR10",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Jaesung Lee",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "KOR11",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Inbeom Hwang",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "KOR12",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Kangin Lee",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "KOR13",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "TEAM",
+      "displayName": "South Korea",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "KOR14",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Seungho Paik",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "KOR15",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Jens Castrop",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "KOR16",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Donggyeong Lee",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "KOR17",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Guesung Cho",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "KOR18",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Heungmin Son",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "KOR19",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Heechan Hwang",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "KOR20",
+      "teamCode": "KOR",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Hyeongyu Oh",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "CZE01",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "BADGE",
+      "displayName": "Czechia",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "CZE02",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Matej Kovar",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "CZE03",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Jindrich Stanek",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "CZE04",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Ladislav Krejci",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "CZE05",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Vladimir Coufal",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "CZE06",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Jaroslav Zeleny",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "CZE07",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Tomas Holes",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "CZE08",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "David Zima",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "CZE09",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Michal Sadilek",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "CZE10",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Lukas Provod",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "CZE11",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Lukas Cerv",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "CZE12",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Tomas Soucek",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "CZE13",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "TEAM",
+      "displayName": "Czechia",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "CZE14",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Pavel Sulc",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "CZE15",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Matej Vydra",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "CZE16",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Vasil Kusej",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "CZE17",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Tomas Chory",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "CZE18",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Vaclav Cherny",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "CZE19",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Adam Hlozek",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "CZE20",
+      "teamCode": "CZE",
+      "group": "A",
+      "type": "NORMAL",
+      "displayName": "Patrick Shick",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "CAN01",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "BADGE",
+      "displayName": "Canada",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "CAN02",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Dayne St. Clair",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "CAN03",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Alphonso Davies",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "CAN04",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Alistair Johnston",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "CAN05",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Samuel Adekugbe",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "CAN06",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Richie Larvea",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "CAN07",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Derek Cornelius",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "CAN08",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Moise Bombito",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "CAN09",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Kamal Miller",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "CAN10",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Stephen Eustaquio",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "CAN11",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Ismael Kone",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "CAN12",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Jonathan Osorio",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "CAN13",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "TEAM",
+      "displayName": "Canada",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "CAN14",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Jacob Shaffelburg",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "CAN15",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Mathieu Choiniere",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "CAN16",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Niko Sigur",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "CAN17",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Tajon Buchanan",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "CAN18",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Liam Millar",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "CAN19",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Cyle Larin",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "CAN20",
+      "teamCode": "CAN",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Jonathan David",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "BIH01",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "BADGE",
+      "displayName": "Bosnia and Herzegovina",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "BIH02",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Nikola Vasilj",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "BIH03",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Amar Dedic",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "BIH04",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Sead Kolasinac",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "BIH05",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Tarik Muharemovic",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "BIH06",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Niihad Mujakic",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "BIH07",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Nicola Katic",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "BIH08",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Amir Hadziahmetovic",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "BIH09",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Benjamin Tahirovic",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "BIH10",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Armin Gigovic",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "BIH11",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Ivan Sunjic",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "BIH12",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Ivan Basic",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "BIH13",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "TEAM",
+      "displayName": "Bosnia and Herzegovina",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "BIH14",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Dzenis Burnic",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "BIH15",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Esmir Bajraktarevic",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "BIH16",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Amar Memic",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "BIH17",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Ermedin Demirovic",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "BIH18",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Edin Dzeko",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "BIH19",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Samed Bazdar",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "BIH20",
+      "teamCode": "BIH",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Haris Tabakovic",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "QAT01",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "BADGE",
+      "displayName": "Qatar",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "QAT02",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Meshaal Barsham",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "QAT03",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Sultan Albrake",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "QAT04",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Lucas Mendes",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "QAT05",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Homam Ahmed",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "QAT06",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Boualem Khoukhi",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "QAT07",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Pedro Miguel",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "QAT08",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Tarek Salman",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "QAT09",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Mohammed Mannai",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "QAT10",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Karim Boudiaf",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "QAT11",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Assim Madibo",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "QAT12",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Hamed Fatehi",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "QAT13",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "TEAM",
+      "displayName": "Qatar",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "QAT14",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Mohammed Waad",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "QAT15",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Abdulaziz Hatem",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "QAT16",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Hassan al-Havdos",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "QAT17",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Edmilson Junior",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "QAT18",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Akram Hassan Afif",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "QAT19",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Ahmed al-Ganehi",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "QAT20",
+      "teamCode": "QAT",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Almoez Ali",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "SUI01",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "BADGE",
+      "displayName": "Switzerland",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "SUI02",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Gregor Kobel",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "SUI03",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Yvon Mvogo",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "SUI04",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Manuel Akanji",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "SUI05",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Ricardo Rodriguez",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "SUI06",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Nico Elvedi",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "SUI07",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Aurele Amenda",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "SUI08",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Silvan Widmer",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "SUI09",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Granit Xhaka",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "SUI10",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Denis Zakaria",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "SUI11",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Remo Freuler",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "SUI12",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Fabian Rieder",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "SUI13",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "TEAM",
+      "displayName": "Switzerland",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "SUI14",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Aaron Jashari",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "SUI15",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Johan Manzambi",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "SUI16",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Michel Aebischer",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "SUI17",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Breel Embolo",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "SUI18",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Ruben Vargas",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "SUI19",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Dan Ndove",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "SUI20",
+      "teamCode": "SUI",
+      "group": "B",
+      "type": "NORMAL",
+      "displayName": "Zeki Amdouni",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "BRA01",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "BADGE",
+      "displayName": "Brazil",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "BRA02",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Alisson",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "BRA03",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Bento",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "BRA04",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Marquinos",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "BRA05",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Eder Militao",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "BRA06",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Gabriel Magalhaes",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "BRA07",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Danilo",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "BRA08",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Wesley",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "BRA09",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Lucas Paquetá",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "BRA10",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Casemiro",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "BRA11",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Bruno Guimaraes",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "BRA12",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Luiz Henrique",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "BRA13",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "TEAM",
+      "displayName": "Brazil",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "BRA14",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Vinicius Junior",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "BRA15",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Rodrygo",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "BRA16",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Joao Pedro",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "BRA17",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Matheus Cunha",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "BRA18",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Gabriel Martinelli",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "BRA19",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Raphinha",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "BRA20",
+      "teamCode": "BRA",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Estevao",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "MAR01",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "BADGE",
+      "displayName": "Morocco",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "MAR02",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Yassine Bounou",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "MAR03",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Munir el Kajour",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "MAR04",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Achraf Hakimi",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "MAR05",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Noussair Mazraoui",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "MAR06",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Nayef Aguerd",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "MAR07",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Romain Saiss",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "MAR08",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Jawad el Yamiq",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "MAR09",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Adam Masina",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "MAR10",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Sofyan Amrabat",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "MAR11",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Azzedine Ounahi",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "MAR12",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Eliesse Ben Seghir",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "MAR13",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "TEAM",
+      "displayName": "Morocco",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "MAR14",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Bilal el Khannouss",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "MAR15",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Ismael Saibari",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "MAR16",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Youssef En-Nesyri",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "MAR17",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Abde Ezzalzouli",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "MAR18",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Soufiane Rahimi",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "MAR19",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Brahim Diaz",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "MAR20",
+      "teamCode": "MAR",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Ayoub el Kaabi",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "HAI01",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "BADGE",
+      "displayName": "Haiti",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "HAI02",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Johny Placide",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "HAI03",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Carlens Arcus",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "HAI04",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Martin Experience",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "HAI05",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Jean Kevin Duverne",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "HAI06",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Ricardo Adé",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "HAI07",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Duke Lacroix",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "HAI08",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Garven Metusala",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "HAI09",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Hannes del Croix",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "HAI10",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Leverton Pierre",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "HAI11",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Danley Jean Jacques",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "HAI12",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Jean Ricner Bellegarde",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "HAI13",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "TEAM",
+      "displayName": "Haiti",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "HAI14",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Christopher Attys",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "HAI15",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Derrick Etienner Jr.",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "HAI16",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Josué Casimir",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "HAI17",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Ruben Providence",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "HAI18",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Duckens Nazon",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "HAI19",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Louicius Deedson",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "HAI20",
+      "teamCode": "HAI",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Frantzdy Pierrot",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "SCO01",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "BADGE",
+      "displayName": "Scotland",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "SCO02",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Angus Gunn",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "SCO03",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Jack Hendry",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "SCO04",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Kieran Tierney",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "SCO05",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Aaron Hickey",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "SCO06",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Andrew Robertson",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "SCO07",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Scott Mckenna",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "SCO08",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "John Souttar",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "SCO09",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Anthony Ralston",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "SCO10",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Grant Hanley",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "SCO11",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Scott Mctomminay",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "SCO12",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Billy Gilmour",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "SCO13",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "TEAM",
+      "displayName": "Scotland",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "SCO14",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Lewis Ferguson",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "SCO15",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Ryan Christie",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "SCO16",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Kenny Mclean",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "SCO17",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "John Mcginn",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "SCO18",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Lyndon Dykes",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "SCO19",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Che Adams",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "SCO20",
+      "teamCode": "SCO",
+      "group": "C",
+      "type": "NORMAL",
+      "displayName": "Ben Gannon-Doak",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "USA01",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "BADGE",
+      "displayName": "United States",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "USA02",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Matt Freese",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "USA03",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Chris Richards",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "USA04",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Tim Ream",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "USA05",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Mark Mckenzie",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "USA06",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Alex Freeman",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "USA07",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Antonee Robinson",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "USA08",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Tyler Adams",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "USA09",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Tanner Tessmann",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "USA10",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Weston Mckennie",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "USA11",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Cristian Roldan",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "USA12",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Timothy Weah",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "USA13",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "TEAM",
+      "displayName": "United States",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "USA14",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Diego Luna",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "USA15",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Malik Tillman",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "USA16",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Christian Pulisic",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "USA17",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Brenden Aaronson",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "USA18",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Ricardo Pepi",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "USA19",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Haji Wright",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "USA20",
+      "teamCode": "USA",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Folarin Balogun",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "PAR01",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "BADGE",
+      "displayName": "Paraguay",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "PAR02",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Roberto Fernandez",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "PAR03",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Orlando Gill",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "PAR04",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Gustavo Gomez",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "PAR05",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Fabian Balbuena",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "PAR06",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Juan Jose Caceres",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "PAR07",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Omar Aldrete",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "PAR08",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Junior Alonso",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "PAR09",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Mathias Villasanti",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "PAR10",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Diego Gomez",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "PAR11",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Damian Bobadilla",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "PAR12",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Andrés Cubas",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "PAR13",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "TEAM",
+      "displayName": "Paraguay",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "PAR14",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Matias Galarza Fonda",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "PAR15",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Julio Enciso",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "PAR16",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Alejandro Romero Gamarra",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "PAR17",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Miguel Almiron",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "PAR18",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Ramon Sosa",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "PAR19",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Angel Romero",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "PAR20",
+      "teamCode": "PAR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Antonio Sanabria",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "AUS01",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "BADGE",
+      "displayName": "Australia",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "AUS02",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Matthew Ryan",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "AUS03",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Joe Gauci",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "AUS04",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Harry Souttar",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "AUS05",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Alessandro Circati",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "AUS06",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Jordan Bos",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "AUS07",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Aziz Behich",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "AUS08",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Cameron Burgess",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "AUS09",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Lewis Miller",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "AUS10",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Milos Degenek",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "AUS11",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Jackson Irvine",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "AUS12",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Riley Mcgree",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "AUS13",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "TEAM",
+      "displayName": "Australia",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "AUS14",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Aiden O´neill",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "AUS15",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Connor Metcalfe",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "AUS16",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Patrick Yazbeck",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "AUS17",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Craig Goodwin",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "AUS18",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Kusini Vengi",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "AUS19",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Nestory Irankunda",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "AUS20",
+      "teamCode": "AUS",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Mohamed Toure",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "TUR01",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "BADGE",
+      "displayName": "Türkiye",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "TUR02",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Ugurcan Cakir",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "TUR03",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Mert Muldur",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "TUR04",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Zeki Celik",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "TUR05",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Abdulkerim Bardakci",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "TUR06",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Caglar Soyuncu",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "TUR07",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Merih Demiral",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "TUR08",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Ferdi Kadioglu",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "TUR09",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Kaan Ayhan",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "TUR10",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Ismail Yuksek",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "TUR11",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Hakan Calhanoglu",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "TUR12",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Orkun Kokcu",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "TUR13",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "TEAM",
+      "displayName": "Türkiye",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "TUR14",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Arda Guler",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "TUR15",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Irfan Can Kahveci",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "TUR16",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Yunus Akgun",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "TUR17",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Can Uzun",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "TUR18",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Baris Alper Yilmaz",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "TUR19",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Kerem Akturkoglu",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "TUR20",
+      "teamCode": "TUR",
+      "group": "D",
+      "type": "NORMAL",
+      "displayName": "Kenan Yildiz",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "GER01",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "BADGE",
+      "displayName": "Germany",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "GER02",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Marc-Andre Ter Stegen",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "GER03",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Jonathan Tah",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "GER04",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Daivd Raum",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "GER05",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Nico Schlotterbeck",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "GER06",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Antonio Rudiger",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "GER07",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Waldemar Anton",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "GER08",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Ridle Baku",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "GER09",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Maximilian Mittelstadt",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "GER10",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Joshua Kimmich",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "GER11",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Florian Wirtz",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "GER12",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Feliz Nmecha",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "GER13",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "TEAM",
+      "displayName": "Germany",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "GER14",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Leon Goretzka",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "GER15",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Jamal Musiala",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "GER16",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Serge Gnabry",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "GER17",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Kai Havertz",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "GER18",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Leroy Sane",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "GER19",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Karim Adeyemi",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "GER20",
+      "teamCode": "GER",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Nick Woltemade",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "CUW01",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "BADGE",
+      "displayName": "Curaçao",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "CUW02",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Eloy Room",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "CUW03",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Armando Obispo",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "CUW04",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Sherel Floranus",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "CUW05",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Jurien Gaari",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "CUW06",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Joshua Brenet",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "CUW07",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Roshon van Eijma",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "CUW08",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Shurandy Sambo",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "CUW09",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Livano Comenencia",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "CUW10",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Godfried Roemeratoe",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "CUW11",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Juninho Bacuna",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "CUW12",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Leandro Bacuna",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "CUW13",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "TEAM",
+      "displayName": "Curaçao",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "CUW14",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Tahith Chong",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "CUW15",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Kenji Gorre",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "CUW16",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Jearl Margaritha",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "CUW17",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Jurgen Locadia",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "CUW18",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Jeremy Antonisse",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "CUW19",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Gervane Kastaneer",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "CUW20",
+      "teamCode": "CUW",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Sontje Hansen",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "CIV01",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "BADGE",
+      "displayName": "Côte d'Ivoire",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "CIV02",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Yahia Fofana",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "CIV03",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Ghislain Konan",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "CIV04",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Wilfried Singo",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "CIV05",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Odilon Kossounou",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "CIV06",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Evan Ndicka",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "CIV07",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Willy Boly",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "CIV08",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Emmanuel Agbadou",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "CIV09",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Ousmane Doimande",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "CIV10",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Fracnk Kessie",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "CIV11",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Seko Fofana",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "CIV12",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Ibahim Sangare",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "CIV13",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "TEAM",
+      "displayName": "Côte d'Ivoire",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "CIV14",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Jean Philippe Gbamin",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "CIV15",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Amad Diallo",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "CIV16",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Sebastien Haller",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "CIV17",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Simon Adingra",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "CIV18",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Yan Diomande",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "CIV19",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Evann Guessand",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "CIV20",
+      "teamCode": "CIV",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Oumar Diakite",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "ECU01",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "BADGE",
+      "displayName": "Ecuador",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "ECU02",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Hernan Galindez",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "ECU03",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Gonzalo Valle",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "ECU04",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Piero Hincapie",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "ECU05",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Pervis Estupiñan",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "ECU06",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Willian Pacho",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "ECU07",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Angelo Preciado",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "ECU08",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Joel Ordoñez",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "ECU09",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Moises Caicedo",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "ECU10",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Alan Franco",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "ECU11",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Kendry Paez",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "ECU12",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Pedro Vite",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "ECU13",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "TEAM",
+      "displayName": "Ecuador",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "ECU14",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "John Yeboah",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "ECU15",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Leonardo Campana",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "ECU16",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Gonzalo Plata",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "ECU17",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Nilson Angulo",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "ECU18",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Alan Minda",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "ECU19",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Kevin Rodriguez",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "ECU20",
+      "teamCode": "ECU",
+      "group": "E",
+      "type": "NORMAL",
+      "displayName": "Enner Valencia",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "NED01",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "BADGE",
+      "displayName": "Netherlands",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "NED02",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Bart Verbruggen",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "NED03",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Virgil van Dijk",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "NED04",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Micky van de Ven",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "NED05",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Jurrien Timber",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "NED06",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Denzel Dumfries",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "NED07",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Nathan Ake",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "NED08",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Jaremie Frimpong",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "NED09",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Jan Paul van Hecke",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "NED10",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Tijjani Reijnders",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "NED11",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Ryan Gravenberch",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "NED12",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Teun Koopmeiners",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "NED13",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "TEAM",
+      "displayName": "Netherlands",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "NED14",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Frenkie de Jong",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "NED15",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Xavi Simmons",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "NED16",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Justin Kluivert",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "NED17",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Memphis Depay",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "NED18",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Donyell Malen",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "NED19",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Wout Weghorst",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "NED20",
+      "teamCode": "NED",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Cody Gakpo",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "JAP01",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "BADGE",
+      "displayName": "Japan",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "JAP02",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Zion Suzuki",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "JAP03",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Henry Heroki Mochizuki",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "JAP04",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Ayumu Seko",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "JAP05",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Junnosuke Suzuki",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "JAP06",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Shogo Taniguchi",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "JAP07",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Tsuyoshi Watanabe",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "JAP08",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Kaishu Sano",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "JAP09",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Yuki Soma",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "JAP10",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Ao Tanaka",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "JAP11",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Daichi Kamada",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "JAP12",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Takefusa Kubo",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "JAP13",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "TEAM",
+      "displayName": "Japan",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "JAP14",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Ritsu Doan",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "JAP15",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Keito Nakamura",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "JAP16",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Takumi Minamino",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "JAP17",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Shuto Machino",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "JAP18",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Junya Ito",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "JAP19",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Koki Ogawa",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "JAP20",
+      "teamCode": "JAP",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Ayase Ueda",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "SWE01",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "BADGE",
+      "displayName": "Sweden",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "SWE02",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Viktor Johansson",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "SWE03",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Isak Hein",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "SWE04",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Gabriel Gudmundsson",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "SWE05",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Emil Holm",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "SWE06",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Victor Nilsson Lindelof",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "SWE07",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Gustaf Lagerbielke",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "SWE08",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Lucas Bergvall",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "SWE09",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Hugo Larsson",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "SWE10",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Jesper Karlstrom",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "SWE11",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Yasin Ayari",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "SWE12",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Mattias Svanberg",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "SWE13",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "TEAM",
+      "displayName": "Sweden",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "SWE14",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Daniel Svensson",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "SWE15",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Ken Sema",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "SWE16",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Roony Bardghji",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "SWE17",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Dejan Kulusevski",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "SWE18",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Anthony Elanga",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "SWE19",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Alexander Isak",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "SWE20",
+      "teamCode": "SWE",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Viktor Gyokeres",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "TUN01",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "BADGE",
+      "displayName": "Tunisia",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "TUN02",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Bechir Ben Said",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "TUN03",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Aymehn Dahmen",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "TUN04",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Van Valery",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "TUN05",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Montassar Talbi",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "TUN06",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Yassine Meriah",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "TUN07",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Ali Abdi",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "TUN08",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Dylan Bronn",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "TUN09",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Ellyes Skhiri",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "TUN10",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Aissa Laidouni",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "TUN11",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Ferjani Sassi",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "TUN12",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Miohamed Ali Ben Romdhane",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "TUN13",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "TEAM",
+      "displayName": "Tunisia",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "TUN14",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Hannibal Mejbri",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "TUN15",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Elias Achouri",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "TUN16",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Elias Saad",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "TUN17",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Hazem Mastouri",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "TUN18",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Ismael Gharbi",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "TUN19",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Sayfallah Ltaief",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "TUN20",
+      "teamCode": "TUN",
+      "group": "F",
+      "type": "NORMAL",
+      "displayName": "Naim Slitti",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "BEL01",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "BADGE",
+      "displayName": "Belgium",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "BEL02",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Thibaut Courtois",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "BEL03",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Arthur Theate",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "BEL04",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Timothy Castagne",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "BEL05",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Zeno Debasr",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "BEL06",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Brandon Mechele",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "BEL07",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Maxim de Cuyper",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "BEL08",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Thomas Meunier",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "BEL09",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Youri Tielemans",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "BEL10",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Amadou Onana",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "BEL11",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Nicolas Raskin",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "BEL12",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Alexis Saelemaekers",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "BEL13",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "TEAM",
+      "displayName": "Belgium",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "BEL14",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Hans Vanaken",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "BEL15",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Kevin Debruyne",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "BEL16",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Jeremy Doku",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "BEL17",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Charles de Ketelaere",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "BEL18",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Leandro Trossard",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "BEL19",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Lios Openda",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "BEL20",
+      "teamCode": "BEL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Romelu Lukaku",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "EGY01",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "BADGE",
+      "displayName": "Egypt",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "EGY02",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Mohamed Elshenawy",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "EGY03",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Mohamed Hany",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "EGY04",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Mohamed Hamby",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "EGY05",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Yasser Ibrahim",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "EGY06",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Khaled Sobhi",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "EGY07",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Ramy Rabia",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "EGY08",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Hossam Abdelmaguid",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "EGY09",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Ahmed Fatouh",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "EGY10",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Marwan Attia",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "EGY11",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Zizo",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "EGY12",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Hamdy Fathy",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "EGY13",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "TEAM",
+      "displayName": "Egypt",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "EGY14",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Mohanad Lasheen",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "EGY15",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Emam Ashour",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "EGY16",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Osama Faisal",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "EGY17",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Mohamed Salah",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "EGY18",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Mostafa Mohamed",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "EGY19",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Trezeguet",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "EGY20",
+      "teamCode": "EGY",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Omar Marmoush",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "IRN01",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "BADGE",
+      "displayName": "Iran",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "IRN02",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Alireza Beiranvand",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "IRN03",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Morteza Pouraliganji",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "IRN04",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Ehsan Hajsafi",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "IRN05",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Milad Mohammadi",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "IRN06",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Shojae Khalilzaedh",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "IRN07",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Ramin Rezaeian",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "IRN08",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Hossein Kanaani",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "IRN09",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Sadegh Moharrami",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "IRN10",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Saleh Hardani",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "IRN11",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Saeed Eztolahi",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "IRN12",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Saman Ghoddos",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "IRN13",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "TEAM",
+      "displayName": "Iran",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "IRN14",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Omid Noorafkan",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "IRN15",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Roozbeh Cheshmi",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "IRN16",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Mohammad Mohebi",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "IRN17",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Sardar Azmoun",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "IRN18",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Mehdi Taremi",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "IRN19",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Alireza Jahanbakhsh",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "IRN20",
+      "teamCode": "IRN",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Ali Gholizadeh",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "NZL01",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "BADGE",
+      "displayName": "New Zealand",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "NZL02",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Max Crocombe",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "NZL03",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Alex Paulsen",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "NZL04",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Michael Boxall",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "NZL05",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Liberato Cacace",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "NZL06",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Tim Payne",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "NZL07",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Tyler Bindon",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "NZL08",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Francis de Vries",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "NZL09",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Finn Surman",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "NZL10",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Joe Bell",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "NZL11",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Sarpreet Singh",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "NZL12",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Ryan Thomas",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "NZL13",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "TEAM",
+      "displayName": "New Zealand",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "NZL14",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Matthew Garbett",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "NZL15",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Marko Stamenic",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "NZL16",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Ben Old",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "NZL17",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Chris Wood",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "NZL18",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Elijah Just",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "NZL19",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Callum Mccowatt",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "NZL20",
+      "teamCode": "NZL",
+      "group": "G",
+      "type": "NORMAL",
+      "displayName": "Kosta Barbarouses",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "ESP01",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "BADGE",
+      "displayName": "Spain",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "ESP02",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Unai Simon",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "ESP03",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Robin le Normand",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "ESP04",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Aymeric Laporte",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "ESP05",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Dean Huijsen",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "ESP06",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Pedro Porro",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "ESP07",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Dani Carvajal",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "ESP08",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Marc Cucurella",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "ESP09",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Martin Zubimendi",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "ESP10",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Rodri",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "ESP11",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Pedri",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "ESP12",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Fabian Ruiz",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "ESP13",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "TEAM",
+      "displayName": "Spain",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "ESP14",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Mikel Merino",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "ESP15",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Lamine Yamal",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "ESP16",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Dani Olmo",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "ESP17",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Nico Williams",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "ESP18",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Ferran Torres",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "ESP19",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Alvaro Morata",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "ESP20",
+      "teamCode": "ESP",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Mikel Oyarzabal",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "CPV01",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "BADGE",
+      "displayName": "Cape Verde",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "CPV02",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Vozinha",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "CPV03",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Logan Costa",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "CPV04",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Pico",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "CPV05",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Diney",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "CPV06",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Steven Moreira",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "CPV07",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Wagner Pina",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "CPV08",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Joao Paulo",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "CPV09",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Yannick Semedo",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "CPV10",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Kevin Pina",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "CPV11",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Patrick Andrade",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "CPV12",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Jamiro Monteiro",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "CPV13",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "TEAM",
+      "displayName": "Cape Verde",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "CPV14",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Deroy Duarte",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "CPV15",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Garry Rodrígues",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "CPV16",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Jovane Cabral",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "CPV17",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Ryan Mendes",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "CPV18",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Dailon Livramento",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "CPV19",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Willy Semedo",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "CPV20",
+      "teamCode": "CPV",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Bebe",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "KSA01",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "BADGE",
+      "displayName": "Saudi Arabia",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "KSA02",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Nawaf Alaqidi",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "KSA03",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Abdulrahman Alsanbi",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "KSA04",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Saud Abdulhamid",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "KSA05",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Nawaf Buwashl",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "KSA06",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Jehad Thikri",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "KSA07",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Moteb Alharbi",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "KSA08",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Hassan Altambakti",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "KSA09",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Musab Aljuwayr",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "KSA10",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Ziyad Aljohani",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "KSA11",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Abdullah Alkhaibari",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "KSA12",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Nasser Aldawsari",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "KSA13",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "TEAM",
+      "displayName": "Saudi Arabia",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "KSA14",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Saleh Abu Alshamat",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "KSA15",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Marwan Alsahafi",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "KSA16",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Salem Aldawsari",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "KSA17",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Abdulrahman Alobud",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "KSA18",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Feras Albrikan",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "KSA19",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Saleh Alshehri",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "KSA20",
+      "teamCode": "KSA",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Abdullah Alhamdan",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "URU01",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "BADGE",
+      "displayName": "Uruguay",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "URU02",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Sergio Rochet",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "URU03",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Santiago Mele",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "URU04",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Ronald Araujo",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "URU05",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Jose Maria Gimenez",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "URU06",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Sebastian Caceres",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "URU07",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Mathias Olivera",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "URU08",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Guillermo Varela",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "URU09",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Nahitan Nandez",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "URU10",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Federico Valverde",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "URU11",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Giorgian de Arrascaeta",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "URU12",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Rodrigo Betancour",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "URU13",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "TEAM",
+      "displayName": "Uruguay",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "URU14",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Manuel Ugarte",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "URU15",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Nicolas de la Cruz",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "URU16",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Maxi Araujo",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "URU17",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Darwin Nuñez",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "URU18",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Federico Viñas",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "URU19",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Rodrigo Aguirre",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "URU20",
+      "teamCode": "URU",
+      "group": "H",
+      "type": "NORMAL",
+      "displayName": "Facundo Pellistri",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "FRA01",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "BADGE",
+      "displayName": "France",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "FRA02",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Mike Maignan",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "FRA03",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Theo Hernandez",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "FRA04",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "William Saliba",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "FRA05",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Jules Kounde",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "FRA06",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Ibrahima Konate",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "FRA07",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Dayot Upamecano",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "FRA08",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Lucas Digne",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "FRA09",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Aurelien Tchouameni",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "FRA10",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Eduardo Camavinga",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "FRA11",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Manu Kone",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "FRA12",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Adrien Rabiot",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "FRA13",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "TEAM",
+      "displayName": "France",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "FRA14",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Michael Olise",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "FRA15",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Ousmane Dembele",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "FRA16",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Bradley Barcola",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "FRA17",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Desire Doue",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "FRA18",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Kingsley Coman",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "FRA19",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Hugo Ekitike",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "FRA20",
+      "teamCode": "FRA",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Kylian Mbappe",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "SEN01",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "BADGE",
+      "displayName": "Senegal",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "SEN02",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Edouard Mendy",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "SEN03",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Yehvann Diouf",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "SEN04",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Moussa Niakhate",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "SEN05",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Abdoulaye Seck",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "SEN06",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Ismail Jakobs",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "SEN07",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "El Hadji Malick Diouf",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "SEN08",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Kalidou Koulibaly",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "SEN09",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Idrissa Gana Gueye",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "SEN10",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Pape Matar Sarr",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "SEN11",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Pape Gueye",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "SEN12",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Habib Diarra",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "SEN13",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "TEAM",
+      "displayName": "Senegal",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "SEN14",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Lamine Camara",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "SEN15",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Sadio Mane",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "SEN16",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Ismaila Sarr",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "SEN17",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Boulaye Dia",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "SEN18",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Iliman Ndiaye",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "SEN19",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Nicolas Jackson",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "SEN20",
+      "teamCode": "SEN",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Krepin Diatta",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "IRQ01",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "BADGE",
+      "displayName": "Iraq",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "IRQ02",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Jalal Hassan",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "IRQ03",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Rebin Sulaka",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "IRQ04",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Hussein Ali",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "IRQ05",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Akam Hashem",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "IRQ06",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Merchas Doski",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "IRQ07",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Zaid Tahseen",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "IRQ08",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Manaf Younis",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "IRQ09",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Zidane Iqbal",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "IRQ10",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Amir al-Ammari",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "IRQ11",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Ibrahim Bayesh",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "IRQ12",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Ali Jasim",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "IRQ13",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "TEAM",
+      "displayName": "Iraq",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "IRQ14",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Youssef Amyn",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "IRQ15",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Aimar Sher",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "IRQ16",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Marko Farji",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "IRQ17",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Osama Rashid",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "IRQ18",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Ali al-Hamadi",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "IRQ19",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Aymen Hussein",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "IRQ20",
+      "teamCode": "IRQ",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Mohanad Ali",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "NOR01",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "BADGE",
+      "displayName": "Norway",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "NOR02",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Orjan Nyland",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "NOR03",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Julian Ryerson",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "NOR04",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Leo Ostigard",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "NOR05",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Kristoffer Vassbakk Ajer",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "NOR06",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Marcus Holmgren Pedersen",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "NOR07",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "David Moller Wolfe",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "NOR08",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Torbjorn Heggem",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "NOR09",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Morten Thorsby",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "NOR10",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Martin Odegaard",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "NOR11",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Sander Berge",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "NOR12",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Andreas Schjelderup",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "NOR13",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "TEAM",
+      "displayName": "Norway",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "NOR14",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Patrick Berg",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "NOR15",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Erling Haaland",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "NOR16",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Alexander Sorloth",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "NOR17",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Aron Donnum",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "NOR18",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Jorgen Strand Larsen",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "NOR19",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Antonio Nusa",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "NOR20",
+      "teamCode": "NOR",
+      "group": "I",
+      "type": "NORMAL",
+      "displayName": "Oscar Bobb",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "ARG01",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "BADGE",
+      "displayName": "Argentina",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "ARG02",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Emiliano Martinez",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "ARG03",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Nahuel Molina",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "ARG04",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Cristian Romero",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "ARG05",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Nicolas Otamendi",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "ARG06",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Nicolas Tagliafico",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "ARG07",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Leonardo Balerdi",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "ARG08",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Enzo Fernandez",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "ARG09",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Alexis Mac Allister",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "ARG10",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Rodrigo de Paul",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "ARG11",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Exequiel Palacios",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "ARG12",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Leandro Paredes",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "ARG13",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "TEAM",
+      "displayName": "Argentina",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "ARG14",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Nico Paz",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "ARG15",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Franco Mastantuono",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "ARG16",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Nico Gonzalez",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "ARG17",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Lionel Messi",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "ARG18",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Lautaro Martinez",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "ARG19",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Julian Alvarez",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "ARG20",
+      "teamCode": "ARG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Giuliano Simeone",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "ALG01",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "BADGE",
+      "displayName": "Algeria",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "ALG02",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Alexis Guendouz",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "ALG03",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Ramy Bensebaini",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "ALG04",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Youcef Atal",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "ALG05",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Rayan Ait Nouri",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "ALG06",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Mohamed Amine Tougai",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "ALG07",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Aissa Mandi",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "ALG08",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Ismael Bennacer",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "ALG09",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Houssem Aouar",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "ALG10",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Hicham Boudaoui",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "ALG11",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Ramiz Zerrouki",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "ALG12",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Nabil Bentaleb",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "ALG13",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "TEAM",
+      "displayName": "Algeria",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "ALG14",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Fares Chaibi",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "ALG15",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Riyad Mahrez",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "ALG16",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Said Benrahma",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "ALG17",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Anis Hadj Moussa",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "ALG18",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Amine Gouiri",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "ALG19",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Baghdad Bounedjah",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "ALG20",
+      "teamCode": "ALG",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Mohammed Amoura",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "AUT01",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "BADGE",
+      "displayName": "Austria",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "AUT02",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Alexander Schlager",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "AUT03",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Patrick Pentz",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "AUT04",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "David Alaba",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "AUT05",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Kevin Danso",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "AUT06",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Phillip Lienhart",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "AUT07",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Stefan Posch",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "AUT08",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Phillip Mwene",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "AUT09",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Alexander Prass",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "AUT10",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Xaver Schlaer",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "AUT11",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Marcel Sabitzer",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "AUT12",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Konrad Laimer",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "AUT13",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "TEAM",
+      "displayName": "Austria",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "AUT14",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Florian Grillitsch",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "AUT15",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Nicolas Seiwald",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "AUT16",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Romano Schmid",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "AUT17",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Patrick Wimmer",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "AUT18",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Christoph Baumgartner",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "AUT19",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Michael Gregoritsch",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "AUT20",
+      "teamCode": "AUT",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Marko Arnautovic",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "JOR01",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "BADGE",
+      "displayName": "Jordan",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "JOR02",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Yazeed Abulaila",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "JOR03",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Ihsan Haddad",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "JOR04",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Mohammad Abu Hashish",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "JOR05",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Yazan al-Arab",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "JOR06",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Abdallah Nasib",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "JOR07",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Sallem Obaid",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "JOR08",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Mohammad Abualnadi",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "JOR09",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Ibrahim Saadeh",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "JOR10",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Nizar al-Rashdan",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "JOR11",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Noor al-Rawabdeh",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "JOR12",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Mohammad Abu Taha",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "JOR13",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "TEAM",
+      "displayName": "Jordan",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "JOR14",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Amer Jamous",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "JOR15",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Mousa al-Taamari",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "JOR16",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Yazan al-Naimat",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "JOR17",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Mahmoud al-Mardi",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "JOR18",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Ali Olwan",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "JOR19",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Mohammad Abu Zrayq",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "JOR20",
+      "teamCode": "JOR",
+      "group": "J",
+      "type": "NORMAL",
+      "displayName": "Ibrahim Sabra",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "POR01",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "BADGE",
+      "displayName": "Portugal",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "POR02",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Diogo Costa",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "POR03",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Jose Sa",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "POR04",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Ruben Dias",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "POR05",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Joao Cancelo",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "POR06",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Diogo Dalot",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "POR07",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Nuno Mendes",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "POR08",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Goncalo Inacio",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "POR09",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Bernardo Silva",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "POR10",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Bruno Fernandes",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "POR11",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Ruben Neves",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "POR12",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Vitinha",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "POR13",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "TEAM",
+      "displayName": "Portugal",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "POR14",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Ruben Neves",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "POR15",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Cristiano Ronaldo",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "POR16",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Francisco Trincao",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "POR17",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Joao Felix",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "POR18",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Goncalo Ramos",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "POR19",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Pedro Neto",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "POR20",
+      "teamCode": "POR",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Rafael Leao",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "COD01",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "BADGE",
+      "displayName": "DR Congo",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "COD02",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Lionel Mpasi",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "COD03",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Aaron Wan-Bissaka",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "COD04",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Axel Tuanzebe",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "COD05",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Arthur Masuaku",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "COD06",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Chancel Mbemba",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "COD07",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Joris Kayembe",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "COD08",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Charles Pickel",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "COD09",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Ngal'Ayel Mukau",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "COD10",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Edo Kayembe",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "COD11",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Samuel Moutoussamy",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "COD12",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Noah Sadiki",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "COD13",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "TEAM",
+      "displayName": "DR Congo",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "COD14",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Theo Bongonda",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "COD15",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Meschack Elia",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "COD16",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Yoane Wissa",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "COD17",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Brian Cipenga",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "COD18",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Fiston Mayele",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "COD19",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Crdric Bakambu",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "COD20",
+      "teamCode": "COD",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Nathanael Mbuku",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "UZB01",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "BADGE",
+      "displayName": "Uzbekistan",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "UZB02",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Utkir Yusupov",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "UZB03",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Farrukh Sayfiev",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "UZB04",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Sherzoo Nasrullaev",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "UZB05",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Umar Eshmurodov",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "UZB06",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Husniddin Aliqulov",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "UZB07",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Rustam Ashurmatov",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "UZB08",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Khojiakbar Alijonov",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "UZB09",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Abdukodir Khusanov",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "UZB10",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Odiljon Hamrobekov",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "UZB11",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Otabek Shukurov",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "UZB12",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Jamshid Iskanderov",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "UZB13",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "TEAM",
+      "displayName": "Uzbekistan",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "UZB14",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Azizbek Turgunboev",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "UZB15",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Khojimat Erkinov",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "UZB16",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Eldor Shomurodov",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "UZB17",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Oston Urunov",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "UZB18",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Jaloliddin Masharipov",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "UZB19",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Igor Sergeev",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "UZB20",
+      "teamCode": "UZB",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Abbosbek Fayzullaev",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "COL01",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "BADGE",
+      "displayName": "Colombia",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "COL02",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Camilo Vargas",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "COL03",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "David Ospina",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "COL04",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Davinson Sanchez",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "COL05",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Yerry Mina",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "COL06",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Daniel Muñoz",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "COL07",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Johan Mojica",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "COL08",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Jhon Lucumi",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "COL09",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Santiago Arias",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "COL10",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Jefferson Lerma",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "COL11",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Kevin Castaño",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "COL12",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Richard Rios",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "COL13",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "TEAM",
+      "displayName": "Colombia",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "COL14",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "James Rodriguez",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "COL15",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Juan Fernando Quintero",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "COL16",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Jorge Carrascal",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "COL17",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Jhon Arias",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "COL18",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Jhon Cordoba",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "COL19",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Luis Suarez",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "COL20",
+      "teamCode": "COL",
+      "group": "K",
+      "type": "NORMAL",
+      "displayName": "Luis Diaz",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "ENG01",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "BADGE",
+      "displayName": "England",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "ENG02",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Jordan Pickford",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "ENG03",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "John Stones",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "ENG04",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Marc Guehi",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "ENG05",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Ezri Konsa",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "ENG06",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Trent Alexander-Arnold",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "ENG07",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Reece James",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "ENG08",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Dan Burn",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "ENG09",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Jordan Henderson",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "ENG10",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Declan Rice",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "ENG11",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Jude Bellingham",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "ENG12",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Cole Palmer",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "ENG13",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "TEAM",
+      "displayName": "England",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "ENG14",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Morgan Rogers",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "ENG15",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Anthony Gordon",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "ENG16",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Phil Foden",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "ENG17",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Bukayo Saka",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "ENG18",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Harry Kane",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "ENG19",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Marcus Rashford",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "ENG20",
+      "teamCode": "ENG",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Ollie Watkins",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "CRO01",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "BADGE",
+      "displayName": "Croatia",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "CRO02",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Dominic Livakovic",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "CRO03",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Duje Caleta-Car",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "CRO04",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Josko Gvardiol",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "CRO05",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Josip Stanisic",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "CRO06",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Luka Vuskovic",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "CRO07",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Josip Sutalo",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "CRO08",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Kristian Jakic",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "CRO09",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Luka Modric",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "CRO10",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Mato Kovacic",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "CRO11",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Martin Baturina",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "CRO12",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Lovro Majer",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "CRO13",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "TEAM",
+      "displayName": "Croatia",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "CRO14",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Mario Pasalic",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "CRO15",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Petar Sucic",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "CRO16",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Ivan Perisic",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "CRO17",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Marco Pasalic",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "CRO18",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Ante Budimir",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "CRO19",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Andrej Kramaric",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "CRO20",
+      "teamCode": "CRO",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Franjo Ivanovic",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "GHA01",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "BADGE",
+      "displayName": "Ghana",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "GHA02",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Lawrence Ati Zigi",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "GHA03",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Tariq Lamptey",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "GHA04",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Mohammed Salisu",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "GHA05",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Alidu Seidu",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "GHA06",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Alexander Djiku",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "GHA07",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Gideon Mensah",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "GHA08",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Caleb Yirenkyi",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "GHA09",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Abdul Issahaku Fatawu",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "GHA10",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Thomas Partey",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "GHA11",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Salis Abdul Samed",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "GHA12",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Kamaldeen Sulemana",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "GHA13",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "TEAM",
+      "displayName": "Ghana",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "GHA14",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Mohammed Kudus",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "GHA15",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Iñaki Williams",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "GHA16",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Jordan Ayew",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "GHA17",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Andre Ayew",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "GHA18",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Joseph Paintsil",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "GHA19",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Osman Bukari",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "GHA20",
+      "teamCode": "GHA",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Antoine Semenyo",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "PAN01",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "BADGE",
+      "displayName": "Panama",
+      "section": null,
+      "slotIndex": 1
+    },
+    {
+      "id": "PAN02",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Orlando Mosquera",
+      "section": null,
+      "slotIndex": 2
+    },
+    {
+      "id": "PAN03",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Luis Mejia",
+      "section": null,
+      "slotIndex": 3
+    },
+    {
+      "id": "PAN04",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Fidel Escobar",
+      "section": null,
+      "slotIndex": 4
+    },
+    {
+      "id": "PAN05",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Andres Andrade",
+      "section": null,
+      "slotIndex": 5
+    },
+    {
+      "id": "PAN06",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Michael Amir Murillo",
+      "section": null,
+      "slotIndex": 6
+    },
+    {
+      "id": "PAN07",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Eric Davis",
+      "section": null,
+      "slotIndex": 7
+    },
+    {
+      "id": "PAN08",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Jose Cordoba",
+      "section": null,
+      "slotIndex": 8
+    },
+    {
+      "id": "PAN09",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Cesar Blackman",
+      "section": null,
+      "slotIndex": 9
+    },
+    {
+      "id": "PAN10",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Cristian Martinez",
+      "section": null,
+      "slotIndex": 10
+    },
+    {
+      "id": "PAN11",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Anibal Godoy",
+      "section": null,
+      "slotIndex": 11
+    },
+    {
+      "id": "PAN12",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Adalberto Carrasquilla",
+      "section": null,
+      "slotIndex": 12
+    },
+    {
+      "id": "PAN13",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "TEAM",
+      "displayName": "Panama",
+      "section": null,
+      "slotIndex": 13
+    },
+    {
+      "id": "PAN14",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Edgar Barcenas",
+      "section": null,
+      "slotIndex": 14
+    },
+    {
+      "id": "PAN15",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Carlos Harvey",
+      "section": null,
+      "slotIndex": 15
+    },
+    {
+      "id": "PAN16",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Ismael Diaz",
+      "section": null,
+      "slotIndex": 16
+    },
+    {
+      "id": "PAN17",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Jose Fajardo",
+      "section": null,
+      "slotIndex": 17
+    },
+    {
+      "id": "PAN18",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Cecilio Waterman",
+      "section": null,
+      "slotIndex": 18
+    },
+    {
+      "id": "PAN19",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Jose Luis Rodriguez",
+      "section": null,
+      "slotIndex": 19
+    },
+    {
+      "id": "PAN20",
+      "teamCode": "PAN",
+      "group": "L",
+      "type": "NORMAL",
+      "displayName": "Alberto Quintero",
+      "section": null,
+      "slotIndex": 20
+    },
+    {
+      "id": "00",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "WE ARE PANINI",
+      "section": "Section 1",
+      "slotIndex": null
+    },
+    {
+      "id": "FWC1",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC 1",
+      "section": "Section 1",
+      "slotIndex": null
+    },
+    {
+      "id": "FWC2",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC 2",
+      "section": "Section 1",
+      "slotIndex": null
+    },
+    {
+      "id": "FWC3",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC 3",
+      "section": "Section 1",
+      "slotIndex": null
+    },
+    {
+      "id": "FWC4",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC 4",
+      "section": "Section 1",
+      "slotIndex": null
+    },
+    {
+      "id": "FWC5",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC 5",
+      "section": "Section 1",
+      "slotIndex": null
+    },
+    {
+      "id": "FWC6",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC 6",
+      "section": "Section 1",
+      "slotIndex": null
+    },
+    {
+      "id": "FWC7",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC 7",
+      "section": "Section 1",
+      "slotIndex": null
+    },
+    {
+      "id": "FWC8",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC 8",
+      "section": "Section 1",
+      "slotIndex": null
+    },
+    {
+      "id": "CC1",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "LAMINE YAMAL",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC2",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "JOSHUE KIMMICH",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC3",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "HARRY KANE",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC4",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "SANTIAGO GIMENEZ",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC5",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "JOSKO GVARDIOL",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC6",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FEDERICO VALVERDE",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC7",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "JEFFERSON LERMA",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC8",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "ENNER VALENCIA",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC9",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "GABRIEL MAGALHAES",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC10",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "VIRGIL VAN DIJK",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC11",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "ALPHONSO DAVIES",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC12",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "EMILIANO MARTINEZ",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC13",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "RAUL JIMENEZ",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "CC14",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "LAUTARO MARTINEZ",
+      "section": "Section 3",
+      "slotIndex": null
+    },
+    {
+      "id": "ITALIA1934FWC9",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC9",
+      "section": "Section 4",
+      "slotIndex": null
+    },
+    {
+      "id": "BRAZIL1950FWC10",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC10",
+      "section": "Section 4",
+      "slotIndex": null
+    },
+    {
+      "id": "SWITZERLAND1954FWC11",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC11",
+      "section": "Section 4",
+      "slotIndex": null
+    },
+    {
+      "id": "CHILE1962FWC12",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC12",
+      "section": "Section 4",
+      "slotIndex": null
+    },
+    {
+      "id": "GERMANY1974FWC13",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC13",
+      "section": "Section 4",
+      "slotIndex": null
+    },
+    {
+      "id": "MEXICO1986FWC14",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC14",
+      "section": "Section 4",
+      "slotIndex": null
+    },
+    {
+      "id": "UNITEDSTATES1994FWC15",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC15",
+      "section": "Section 4",
+      "slotIndex": null
+    },
+    {
+      "id": "SOUTHKOREA/JAPAN2002FWC16",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC16",
+      "section": "Section 4",
+      "slotIndex": null
+    },
+    {
+      "id": "GERMANY2006FWC17",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC17",
+      "section": "Section 4",
+      "slotIndex": null
+    },
+    {
+      "id": "BRAZIL2014FWC18",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC18",
+      "section": "Section 4",
+      "slotIndex": null
+    },
+    {
+      "id": "QATAR2022FWC19",
+      "teamCode": null,
+      "group": null,
+      "type": "SPECIAL",
+      "displayName": "FWC19",
+      "section": "Section 4",
+      "slotIndex": null
+    }
+  ]
+}
