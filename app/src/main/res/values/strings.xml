@@ -1,4 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Panini WC26 tracker</string>
+    <!-- App name is a brand mark; never translated. -->
+    <string name="app_name" translatable="false">Panini WC26 tracker</string>
+
+    <!-- Catalog (kept for future error UI / Stats screen) -->
+    <string name="catalog_load_error">Failed to load catalog: %1$s</string>
+    <string name="stats_missing_duplicates">Missing: %1$d · Duplicates: %2$d across %3$d stickers</string>
+
+    <!-- Home -->
+    <string name="home_overall_progress">Overall</string>
+    <string name="home_card_browse">Browse</string>
+    <string name="home_card_search">Search</string>
+    <string name="home_card_scan">Scan</string>
+    <string name="home_card_stats">Stats</string>
+    <string name="home_stats_inline">Missing: %1$d · Duplicates: %2$d</string>
+
+    <!-- Browse -->
+    <string name="browse_groups_title">Browse</string>
+    <string name="browse_group_format">Group %1$s</string>
+    <string name="browse_specials_label">Specials</string>
+    <string name="browse_back_content_desc">Back</string>
+    <string name="browse_dupes_inline">%1$d dupes</string>
+
+    <!-- Team sheet -->
+    <string name="team_sheet_title_format">%1$s (Group %2$s)</string>
+    <string name="team_sheet_sort_label">Sort</string>
+
+    <!-- Sort options -->
+    <string name="sort_by_slot">By number</string>
+    <string name="sort_by_name">A → Z</string>
+
+    <!-- Specials -->
+    <string name="specials_title">Specials</string>
+
+    <!-- Placeholders for Search / Scan / Stats until those phases ship -->
+    <string name="placeholder_coming_soon">Coming in a later phase.</string>
+    <string name="placeholder_search_title">Search</string>
+    <string name="placeholder_scan_title">Scan</string>
+    <string name="placeholder_stats_title">Stats</string>
 </resources>

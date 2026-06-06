@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Mexican-Spanish copy. Word choices follow common Latin American sticker-collecting usage:
+      sticker      -> estampa
+      team         -> selección  (national team; "equipo" would be a club)
+      missing      -> faltante
+      duplicate    -> repetida
+      owned/pasted -> pegada
+      album        -> álbum
+-->
+<resources>
+    <!-- Catalog -->
+    <string name="catalog_load_error">No se pudo cargar el catálogo: %1$s</string>
+    <string name="stats_missing_duplicates">Faltantes: %1$d · Repetidas: %2$d en %3$d estampas</string>
+
+    <!-- Home -->
+    <string name="home_overall_progress">Total</string>
+    <string name="home_card_browse">Explorar</string>
+    <string name="home_card_search">Buscar</string>
+    <string name="home_card_scan">Escanear</string>
+    <string name="home_card_stats">Estadísticas</string>
+    <string name="home_stats_inline">Faltantes: %1$d · Repetidas: %2$d</string>
+
+    <!-- Browse -->
+    <string name="browse_groups_title">Explorar</string>
+    <string name="browse_group_format">Grupo %1$s</string>
+    <string name="browse_specials_label">Especiales</string>
+    <string name="browse_back_content_desc">Atrás</string>
+    <string name="browse_dupes_inline">%1$d repetidas</string>
+
+    <!-- Team sheet -->
+    <string name="team_sheet_title_format">%1$s (Grupo %2$s)</string>
+    <string name="team_sheet_sort_label">Ordenar</string>
+
+    <!-- Sort options -->
+    <string name="sort_by_slot">Por número</string>
+    <string name="sort_by_name">A → Z</string>
+
+    <!-- Specials -->
+    <string name="specials_title">Especiales</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_coming_soon">Próximamente.</string>
+    <string name="placeholder_search_title">Buscar</string>
+    <string name="placeholder_scan_title">Escanear</string>
+    <string name="placeholder_stats_title">Estadísticas</string>
+</resources>

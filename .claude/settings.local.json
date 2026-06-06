@@ -30,7 +30,8 @@
       "Bash(adb devices *)",
       "Bash(adb install *)",
       "Bash(adb shell *)",
-      "Bash(adb exec-out *)"
+      "Bash(adb exec-out *)",
+      "Read(//private/tmp/**)"
     ]
   }
 }
