@@ -10,12 +10,12 @@ plugins {
 
 android {
     namespace = "com.vibely.wc26"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.vibely.wc26"
         minSdk = 26
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0.0"
         vectorDrawables { useSupportLibrary = true }
@@ -89,6 +89,7 @@ dependencies {
     implementation(libs.hilt.android)
     implementation(libs.androidx.hilt.navigation.compose)
     ksp(libs.hilt.compiler)
+    ksp(libs.kotlin.metadata.jvm)
 
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
