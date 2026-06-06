@@ -102,7 +102,24 @@
         <item quantity="other">%d dupes</item>
     </plurals>
 
-    <!-- Placeholder for Scan until Phase 7 ships -->
+    <!-- Scan -->
+    <string name="scan_title">Scan</string>
+    <string name="scan_action_capture">Capture</string>
+    <string name="scan_action_manual_search">Search manually</string>
+    <string name="scan_rapid_mode">Rapid mode</string>
+    <string name="scan_permission_title">Camera access needed</string>
+    <string name="scan_permission_description">Point your camera at a sticker to identify it. The image stays on your device — nothing is uploaded.</string>
+    <string name="scan_permission_action">Allow camera</string>
+    <string name="scan_matched_title">FOUND IT</string>
+    <string name="scan_owned_baseline">You already own %1$d</string>
+    <string name="scan_save_and_continue">Save and scan next</string>
+    <string name="scan_alternatives_show">Not this one?</string>
+    <string name="scan_alternatives_hide">Hide alternatives</string>
+    <string name="scan_no_match_title">Couldn\'t read the sticker</string>
+    <string name="scan_no_match_description">Try better lighting, hold the camera steady, and frame the sticker so the name is clear. Or pick the player manually.</string>
+    <string name="scan_no_match_try_again">Try again</string>
+    <string name="scan_no_match_search">Search manually</string>
+
+    <!-- Placeholder for any future stub screens -->
     <string name="placeholder_coming_soon">Coming in a later phase.</string>
-    <string name="placeholder_scan_title">Scan</string>
 </resources>

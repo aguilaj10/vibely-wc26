@@ -5,7 +5,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.res.stringResource
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.ui.NavDisplay
@@ -23,7 +22,7 @@ import com.vibely.wc26.feature.browse.specials.SpecialsScreen
 import com.vibely.wc26.feature.browse.teams.BrowseTeamsScreen
 import com.vibely.wc26.feature.browse.teamsheet.TeamSheetScreen
 import com.vibely.wc26.feature.home.HomeScreen
-import com.vibely.wc26.feature.placeholder.PlaceholderScreen
+import com.vibely.wc26.feature.scan.ScanScreen
 import com.vibely.wc26.feature.search.SearchScreen
 import com.vibely.wc26.feature.stats.StatsScreen
 import dagger.hilt.android.AndroidEntryPoint
@@ -86,9 +85,12 @@ private fun App() {
                 )
             }
             entry<Scan> {
-                PlaceholderScreen(
-                    title = stringResource(R.string.placeholder_scan_title),
+                ScanScreen(
                     onBack = { backStack.removeLastOrNull() },
+                    onSearch = {
+                        backStack.removeLastOrNull()
+                        backStack.add(Search)
+                    },
                 )
             }
             entry<Stats> {

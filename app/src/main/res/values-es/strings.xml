@@ -108,7 +108,24 @@
         <item quantity="other">%d repetidas</item>
     </plurals>
 
-    <!-- Placeholder for Scan -->
+    <!-- Scan -->
+    <string name="scan_title">Escanear</string>
+    <string name="scan_action_capture">Capturar</string>
+    <string name="scan_action_manual_search">Buscar manualmente</string>
+    <string name="scan_rapid_mode">Modo rápido</string>
+    <string name="scan_permission_title">Se necesita acceso a la cámara</string>
+    <string name="scan_permission_description">Apunta la cámara a una estampa para identificarla. La imagen se queda en tu dispositivo — no se sube nada.</string>
+    <string name="scan_permission_action">Permitir cámara</string>
+    <string name="scan_matched_title">ENCONTRADA</string>
+    <string name="scan_owned_baseline">Ya tienes %1$d</string>
+    <string name="scan_save_and_continue">Guardar y escanear siguiente</string>
+    <string name="scan_alternatives_show">¿No es esta?</string>
+    <string name="scan_alternatives_hide">Ocultar alternativas</string>
+    <string name="scan_no_match_title">No pude leer la estampa</string>
+    <string name="scan_no_match_description">Prueba con mejor luz, mantén la cámara firme y encuadra la estampa para que el nombre se vea claro. O elige al jugador manualmente.</string>
+    <string name="scan_no_match_try_again">Intentar otra vez</string>
+    <string name="scan_no_match_search">Buscar manualmente</string>
+
+    <!-- Placeholder fallback -->
     <string name="placeholder_coming_soon">Próximamente.</string>
-    <string name="placeholder_scan_title">Escanear</string>
 </resources>
