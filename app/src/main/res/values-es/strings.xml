@@ -61,8 +61,54 @@
         <item quantity="other">Tienes %1$d repetidas (%2$d para cambiar)</item>
     </plurals>
 
-    <!-- Placeholders -->
+    <!-- Stats -->
+    <string name="stats_title">Estadísticas</string>
+    <string-array name="stats_tabs">
+        <item>Progreso</item>
+        <item>Faltantes</item>
+        <item>Repetidas</item>
+    </string-array>
+    <string name="stats_action_copy">Copiar</string>
+    <string name="stats_action_share">Compartir</string>
+
+    <!-- Stats — Progress -->
+    <string name="stats_progress_specials_label">Especiales</string>
+    <string name="stats_progress_by_group">Por grupo</string>
+    <string name="stats_progress_by_team">Por selección</string>
+    <string name="stats_progress_total_duplicates">Repetidas totales: %1$d</string>
+    <string name="stats_progress_team_trailing">%1$s · %2$s</string>
+    <plurals name="stats_progress_dupes_suffix">
+        <item quantity="one">%d repetida</item>
+        <item quantity="other">%d repetidas</item>
+    </plurals>
+
+    <!-- Stats — Missing -->
+    <string name="stats_missing_total_format">%1$d faltantes</string>
+    <string name="stats_missing_section_count">%1$d</string>
+    <string name="stats_missing_empty_title">Álbum completo</string>
+    <string name="stats_missing_empty_description">¡No falta nada. Buen trabajo!</string>
+
+    <!-- Stats — Duplicated -->
+    <string name="stats_duplicated_sort_most_dupes">Más repetidas</string>
+    <string name="stats_duplicated_sort_by_team">Por selección</string>
+    <string name="stats_duplicated_footer">Repetidas totales: %1$d en %2$s</string>
+    <plurals name="stats_duplicated_footer_stickers">
+        <item quantity="one">%d estampa</item>
+        <item quantity="other">%d estampas</item>
+    </plurals>
+    <string name="stats_duplicated_empty_title">Sin repetidas todavía</string>
+    <string name="stats_duplicated_empty_description">Las estampas que tengas 2 veces o más aparecerán aquí.</string>
+    <string name="stats_duplicated_export_row_format">%1$s ×%2$d (%3$s)</string>
+    <plurals name="stats_duplicated_dupe_word">
+        <item quantity="one">%d repetida</item>
+        <item quantity="other">%d repetidas</item>
+    </plurals>
+    <plurals name="stats_duplicated_dupes_label">
+        <item quantity="one">%d repetida</item>
+        <item quantity="other">%d repetidas</item>
+    </plurals>
+
+    <!-- Placeholder for Scan -->
     <string name="placeholder_coming_soon">Próximamente.</string>
     <string name="placeholder_scan_title">Escanear</string>
-    <string name="placeholder_stats_title">Estadísticas</string>
 </resources>

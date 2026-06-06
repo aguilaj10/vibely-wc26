@@ -25,6 +25,7 @@ import com.vibely.wc26.feature.browse.teamsheet.TeamSheetScreen
 import com.vibely.wc26.feature.home.HomeScreen
 import com.vibely.wc26.feature.placeholder.PlaceholderScreen
 import com.vibely.wc26.feature.search.SearchScreen
+import com.vibely.wc26.feature.stats.StatsScreen
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -91,8 +92,7 @@ private fun App() {
                 )
             }
             entry<Stats> {
-                PlaceholderScreen(
-                    title = stringResource(R.string.placeholder_stats_title),
+                StatsScreen(
                     onBack = { backStack.removeLastOrNull() },
                 )
             }
