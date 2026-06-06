@@ -24,6 +24,7 @@ import com.vibely.wc26.feature.browse.teams.BrowseTeamsScreen
 import com.vibely.wc26.feature.browse.teamsheet.TeamSheetScreen
 import com.vibely.wc26.feature.home.HomeScreen
 import com.vibely.wc26.feature.placeholder.PlaceholderScreen
+import com.vibely.wc26.feature.search.SearchScreen
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -79,8 +80,7 @@ private fun App() {
                 )
             }
             entry<Search> {
-                PlaceholderScreen(
-                    title = stringResource(R.string.placeholder_search_title),
+                SearchScreen(
                     onBack = { backStack.removeLastOrNull() },
                 )
             }

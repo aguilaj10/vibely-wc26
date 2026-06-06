@@ -34,6 +34,16 @@
     <!-- Specials -->
     <string name="specials_title">Specials</string>
 
+    <!-- Search -->
+    <string name="search_title">Search</string>
+    <string name="search_hint">Player, team, or sticker ID</string>
+    <string name="search_clear">Clear</string>
+    <string name="search_idle_title">Find a sticker</string>
+    <string name="search_idle_description">Type a player name, team, or sticker ID (e.g. MEX02). Accents are ignored.</string>
+    <string name="search_no_matches_title">No matches</string>
+    <string name="search_no_matches_description">Try a shorter prefix or check the spelling.</string>
+    <string name="search_total_format">%1$d matches</string>
+
     <!-- Sticker detail bottom sheet -->
     <string name="sticker_detail_header_team">%1$s · %2$s · Group %3$s</string>
     <string name="sticker_detail_header_special">%1$s · %2$s</string>
@@ -45,9 +55,8 @@
         <item quantity="other">You have %1$d duplicates (%2$d to trade)</item>
     </plurals>
 
-    <!-- Placeholders for Search / Scan / Stats until those phases ship -->
+    <!-- Placeholders for Scan / Stats until those phases ship -->
     <string name="placeholder_coming_soon">Coming in a later phase.</string>
-    <string name="placeholder_search_title">Search</string>
     <string name="placeholder_scan_title">Scan</string>
     <string name="placeholder_stats_title">Stats</string>
 </resources>

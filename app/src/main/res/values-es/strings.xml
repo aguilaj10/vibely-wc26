@@ -40,6 +40,16 @@
     <!-- Specials -->
     <string name="specials_title">Especiales</string>
 
+    <!-- Search -->
+    <string name="search_title">Buscar</string>
+    <string name="search_hint">Jugador, selección o código</string>
+    <string name="search_clear">Limpiar</string>
+    <string name="search_idle_title">Encuentra una estampa</string>
+    <string name="search_idle_description">Escribe un nombre, una selección o un código (p. ej. MEX02). Los acentos se ignoran.</string>
+    <string name="search_no_matches_title">Sin coincidencias</string>
+    <string name="search_no_matches_description">Prueba con un prefijo más corto o revisa la ortografía.</string>
+    <string name="search_total_format">%1$d coincidencias</string>
+
     <!-- Sticker detail bottom sheet -->
     <string name="sticker_detail_header_team">%1$s · %2$s · Grupo %3$s</string>
     <string name="sticker_detail_header_special">%1$s · %2$s</string>
@@ -53,7 +63,6 @@
 
     <!-- Placeholders -->
     <string name="placeholder_coming_soon">Próximamente.</string>
-    <string name="placeholder_search_title">Buscar</string>
     <string name="placeholder_scan_title">Escanear</string>
     <string name="placeholder_stats_title">Estadísticas</string>
 </resources>
