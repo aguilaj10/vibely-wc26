@@ -14,6 +14,7 @@
     <string name="home_card_scan">Scan</string>
     <string name="home_card_stats">Stats</string>
     <string name="home_stats_inline">Missing: %1$d · Duplicates: %2$d</string>
+    <string name="home_last_added">Last added: %1$s · %2$s</string>
 
     <!-- Browse -->
     <string name="browse_groups_title">Browse</string>
@@ -32,6 +33,17 @@
 
     <!-- Specials -->
     <string name="specials_title">Specials</string>
+
+    <!-- Sticker detail bottom sheet -->
+    <string name="sticker_detail_header_team">%1$s · %2$s · Group %3$s</string>
+    <string name="sticker_detail_header_special">%1$s · %2$s</string>
+    <string name="sticker_detail_increment">Add one</string>
+    <string name="sticker_detail_decrement">Remove one</string>
+    <string name="sticker_detail_no_duplicates">No duplicates</string>
+    <plurals name="sticker_detail_duplicates">
+        <item quantity="one">You have %1$d duplicate (%2$d to trade)</item>
+        <item quantity="other">You have %1$d duplicates (%2$d to trade)</item>
+    </plurals>
 
     <!-- Placeholders for Search / Scan / Stats until those phases ship -->
     <string name="placeholder_coming_soon">Coming in a later phase.</string>

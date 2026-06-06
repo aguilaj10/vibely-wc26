@@ -31,7 +31,11 @@
       "Bash(adb install *)",
       "Bash(adb shell *)",
       "Bash(adb exec-out *)",
-      "Read(//private/tmp/**)"
+      "Read(//private/tmp/**)",
+      "Bash(./gradlew assembleDebug)",
+      "Bash(./gradlew installDebug)",
+      "Bash(adb logcat *)",
+      "Bash(adb pull *)"
     ]
   }
 }

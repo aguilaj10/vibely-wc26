@@ -29,9 +29,9 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.vibely.wc26.R
 import com.vibely.wc26.core.ui.components.HubCard
 import com.vibely.wc26.core.ui.components.LabeledProgressBar
-import com.vibely.wc26.core.util.countLabel
-import com.vibely.wc26.core.util.percentLabel
-import com.vibely.wc26.domain.model.CollectionStats
+import com.vibely.wc26.core.ui.format.countLabel
+import com.vibely.wc26.core.ui.format.percentLabel
+import com.vibely.wc26.domain.model.Sticker
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -43,7 +43,7 @@ fun HomeScreen(
     modifier: Modifier = Modifier,
     viewModel: HomeViewModel = hiltViewModel(),
 ) {
-    val stats by viewModel.state.collectAsStateWithLifecycle()
+    val ui by viewModel.state.collectAsStateWithLifecycle()
     Scaffold(
         modifier = modifier.fillMaxSize(),
         topBar = {
@@ -53,7 +53,7 @@ fun HomeScreen(
         },
     ) { inner ->
         HomeContent(
-            stats = stats,
+            ui = ui,
             onBrowse = onBrowse,
             onSearch = onSearch,
             onScan = onScan,
@@ -65,7 +65,7 @@ fun HomeScreen(
 
 @Composable
 private fun HomeContent(
-    stats: CollectionStats?,
+    ui: HomeUiState,
     onBrowse: () -> Unit,
     onSearch: () -> Unit,
     onScan: () -> Unit,
@@ -78,6 +78,7 @@ private fun HomeContent(
             .padding(horizontal = 20.dp, vertical = 16.dp),
         verticalArrangement = Arrangement.spacedBy(20.dp),
     ) {
+        val stats = ui.stats
         if (stats != null) {
             val overall = stats.overall
             Column(modifier = Modifier.fillMaxWidth()) {
@@ -131,16 +132,32 @@ private fun HomeContent(
         }
 
         if (stats != null) {
-            Text(
-                text = stringResource(
-                    R.string.home_stats_inline,
-                    stats.overall.missing,
-                    stats.overall.totalDuplicates,
-                ),
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.align(Alignment.CenterHorizontally),
-            )
+            Column(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(4.dp),
+            ) {
+                Text(
+                    text = stringResource(
+                        R.string.home_stats_inline,
+                        stats.overall.missing,
+                        stats.overall.totalDuplicates,
+                    ),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                LastAddedLine(sticker = ui.lastAdded)
+            }
         }
     }
+}
+
+@Composable
+private fun LastAddedLine(sticker: Sticker?) {
+    if (sticker == null) return
+    Text(
+        text = stringResource(R.string.home_last_added, sticker.id, sticker.displayName),
+        style = MaterialTheme.typography.bodySmall,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+    )
 }

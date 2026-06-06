@@ -1,4 +1,4 @@
-package com.vibely.wc26.core.util
+package com.vibely.wc26.core.ui.format
 
 import com.vibely.wc26.domain.model.ProgressSummary
 import java.text.NumberFormat

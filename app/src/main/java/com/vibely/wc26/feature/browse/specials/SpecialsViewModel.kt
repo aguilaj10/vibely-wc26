@@ -2,59 +2,77 @@ package com.vibely.wc26.feature.browse.specials
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.vibely.wc26.domain.catalog.CatalogRepository
-import com.vibely.wc26.domain.model.Sticker
-import com.vibely.wc26.domain.model.StickerType
-import com.vibely.wc26.domain.ownership.OwnershipRepository
+import com.vibely.wc26.domain.usecase.ObserveSpecialsUseCase
+import com.vibely.wc26.domain.usecase.SpecialStickerRow
+import com.vibely.wc26.domain.usecase.SpecialsData
+import com.vibely.wc26.domain.usecase.SpecialsSection
+import com.vibely.wc26.domain.usecase.UpdateStickerQuantityUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
-import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
 
 @HiltViewModel
 class SpecialsViewModel @Inject constructor(
-    private val catalogRepository: CatalogRepository,
-    private val ownershipRepository: OwnershipRepository,
+    observeSpecials: ObserveSpecialsUseCase,
+    private val updateQuantity: UpdateStickerQuantityUseCase,
 ) : ViewModel() {
 
+    private val selectedStickerId = MutableStateFlow<String?>(null)
+
+    fun openSheet(stickerId: String) {
+        selectedStickerId.value = stickerId
+    }
+
+    fun closeSheet() {
+        selectedStickerId.value = null
+    }
+
+    fun increment(stickerId: String) {
+        viewModelScope.launch { updateQuantity.adjust(stickerId, +1) }
+    }
+
+    fun decrement(stickerId: String) {
+        viewModelScope.launch { updateQuantity.adjust(stickerId, -1) }
+    }
+
+    fun setQuantity(stickerId: String, quantity: Int) {
+        viewModelScope.launch { updateQuantity.set(stickerId, quantity) }
+    }
+
     val state: StateFlow<SpecialsUiState> = combine(
-        flow { emit(catalogRepository.load()) },
-        ownershipRepository.observeAll(),
-    ) { catalog, ownership ->
-        val specials = catalog.stickers.filter { it.type == StickerType.SPECIAL || it.section != null }
-        val bySection = specials.groupBy { it.section ?: "—" }
-            .toSortedMap()
-            .map { (section, stickers) ->
-                SpecialsSection(
-                    name = section,
-                    rows = stickers.map { SpecialRow(it, ownership[it.id] ?: 0) },
-                )
-            }
-        SpecialsUiState(sections = bySection)
+        observeSpecials(),
+        selectedStickerId,
+    ) { data, selectedId ->
+        SpecialsUiState(
+            sections = data.sections,
+            selected = selectedId?.let { id -> findRow(data, id) },
+        )
     }.stateIn(
         viewModelScope,
-        SharingStarted.WhileSubscribed(5_000),
+        SharingStarted.WhileSubscribed(STATE_TIMEOUT_MS),
         SpecialsUiState.Empty,
     )
+
+    private fun findRow(data: SpecialsData, stickerId: String): SpecialStickerRow? =
+        data.sections.asSequence()
+            .flatMap { it.rows.asSequence() }
+            .firstOrNull { it.sticker.id == stickerId }
+
+    private companion object {
+        const val STATE_TIMEOUT_MS = 5_000L
+    }
 }
-
-data class SpecialRow(
-    val sticker: Sticker,
-    val quantity: Int,
-)
-
-data class SpecialsSection(
-    val name: String,
-    val rows: List<SpecialRow>,
-)
 
 data class SpecialsUiState(
     val sections: List<SpecialsSection>,
+    val selected: SpecialStickerRow? = null,
 ) {
     companion object {
-        val Empty = SpecialsUiState(sections = emptyList())
+        val Empty = SpecialsUiState(sections = emptyList(), selected = null)
     }
 }

@@ -10,6 +10,9 @@ interface OwnershipRepository {
     /** Quantity for a single sticker; emits 0 when not owned. */
     fun observeQuantity(stickerId: String): Flow<Int>
 
+    /** One-shot read of a single sticker's quantity. Returns 0 when not owned. */
+    suspend fun getQuantity(stickerId: String): Int
+
     /** Set quantity directly. quantity ≤ 0 removes the row. */
     suspend fun setQuantity(stickerId: String, quantity: Int)
 

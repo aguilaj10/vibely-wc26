@@ -20,6 +20,7 @@
     <string name="home_card_scan">Escanear</string>
     <string name="home_card_stats">Estadísticas</string>
     <string name="home_stats_inline">Faltantes: %1$d · Repetidas: %2$d</string>
+    <string name="home_last_added">Última pegada: %1$s · %2$s</string>
 
     <!-- Browse -->
     <string name="browse_groups_title">Explorar</string>
@@ -38,6 +39,17 @@
 
     <!-- Specials -->
     <string name="specials_title">Especiales</string>
+
+    <!-- Sticker detail bottom sheet -->
+    <string name="sticker_detail_header_team">%1$s · %2$s · Grupo %3$s</string>
+    <string name="sticker_detail_header_special">%1$s · %2$s</string>
+    <string name="sticker_detail_increment">Sumar una</string>
+    <string name="sticker_detail_decrement">Restar una</string>
+    <string name="sticker_detail_no_duplicates">Sin repetidas</string>
+    <plurals name="sticker_detail_duplicates">
+        <item quantity="one">Tienes %1$d repetida (%2$d para cambiar)</item>
+        <item quantity="other">Tienes %1$d repetidas (%2$d para cambiar)</item>
+    </plurals>
 
     <!-- Placeholders -->
     <string name="placeholder_coming_soon">Próximamente.</string>

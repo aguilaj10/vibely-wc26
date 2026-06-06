@@ -71,13 +71,11 @@ private fun App() {
                 TeamSheetScreen(
                     teamCode = key.teamCode,
                     onBack = { backStack.removeLastOrNull() },
-                    onStickerClick = { /* Phase 4: open bottom sheet */ },
                 )
             }
             entry<Specials> {
                 SpecialsScreen(
                     onBack = { backStack.removeLastOrNull() },
-                    onStickerClick = { /* Phase 4: open bottom sheet */ },
                 )
             }
             entry<Search> {

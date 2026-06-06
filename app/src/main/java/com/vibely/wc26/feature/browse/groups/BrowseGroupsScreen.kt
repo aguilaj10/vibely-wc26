@@ -33,7 +33,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.vibely.wc26.R
 import com.vibely.wc26.core.ui.components.LabeledProgressBar
-import com.vibely.wc26.core.util.countLabel
+import com.vibely.wc26.core.ui.format.countLabel
 import com.vibely.wc26.domain.model.ProgressSummary
 
 @OptIn(ExperimentalMaterial3Api::class)

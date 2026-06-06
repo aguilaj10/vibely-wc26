@@ -1,6 +1,7 @@
 package com.vibely.wc26.feature.browse.teamsheet
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -31,22 +32,30 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.vibely.wc26.R
+import com.vibely.wc26.core.ui.components.CelebrationOverlay
 import com.vibely.wc26.core.ui.components.StickerTile
-import com.vibely.wc26.data.prefs.PlayerSort
+import com.vibely.wc26.domain.prefs.PlayerSort
+import com.vibely.wc26.feature.stickerdetail.StickerDetailSheet
+import kotlinx.coroutines.flow.collectLatest
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TeamSheetScreen(
     teamCode: String,
     onBack: () -> Unit,
-    onStickerClick: (String) -> Unit,
     modifier: Modifier = Modifier,
     viewModel: TeamSheetViewModel = hiltViewModel(),
 ) {
     LaunchedEffect(teamCode) { viewModel.setTeam(teamCode) }
     val state by viewModel.state.collectAsStateWithLifecycle()
     val team = state.team
+    val selected = state.selectedSticker
     var sortMenuOpen by remember { mutableStateOf(false) }
+
+    var celebration by remember { mutableStateOf<TeamCelebration?>(null) }
+    LaunchedEffect(viewModel) {
+        viewModel.celebrations.collectLatest { celebration = it }
+    }
 
     Scaffold(
         modifier = modifier.fillMaxSize(),
@@ -105,21 +114,47 @@ fun TeamSheetScreen(
             )
         },
     ) { inner ->
-        LazyVerticalGrid(
-            modifier = Modifier.padding(inner),
-            columns = GridCells.Fixed(4),
-            contentPadding = PaddingValues(horizontal = 12.dp, vertical = 12.dp),
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
-        ) {
-            items(items = state.rows, key = { it.sticker.id }) { row ->
-                StickerTile(
-                    slotLabel = row.sticker.slotIndex?.toString()?.padStart(2, '0') ?: "—",
-                    displayName = shortName(row.sticker.displayName),
-                    quantity = row.quantity,
-                    onClick = { onStickerClick(row.sticker.id) },
-                )
+        Box(modifier = Modifier.padding(inner).fillMaxSize()) {
+            LazyVerticalGrid(
+                columns = GridCells.Fixed(4),
+                contentPadding = PaddingValues(horizontal = 12.dp, vertical = 12.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                items(items = state.rows, key = { it.sticker.id }) { row ->
+                    val id = row.sticker.id
+                    StickerTile(
+                        slotLabel = row.sticker.slotIndex?.toString()?.padStart(2, '0') ?: "—",
+                        displayName = shortName(row.sticker.displayName),
+                        quantity = row.quantity,
+                        onClick = { viewModel.openSheet(id) },
+                        onLongClick = { viewModel.increment(id) },
+                        onSwipeRight = { viewModel.increment(id) },
+                        onSwipeLeft = { viewModel.decrement(id) },
+                    )
+                }
             }
+
+            CelebrationOverlay(
+                visible = celebration != null,
+                teamName = celebration?.teamName.orEmpty(),
+                onComplete = {
+                    celebration?.let { viewModel.acknowledgeCelebration(it.teamCode) }
+                    celebration = null
+                },
+            )
+        }
+
+        if (selected != null) {
+            StickerDetailSheet(
+                sticker = selected.sticker,
+                team = team,
+                quantity = selected.quantity,
+                onIncrement = { viewModel.increment(selected.sticker.id) },
+                onDecrement = { viewModel.decrement(selected.sticker.id) },
+                onSetQuantity = { value -> viewModel.setQuantity(selected.sticker.id, value) },
+                onDismiss = { viewModel.closeSheet() },
+            )
         }
     }
 }

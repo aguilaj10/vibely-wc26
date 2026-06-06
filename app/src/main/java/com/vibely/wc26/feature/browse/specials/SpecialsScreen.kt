@@ -27,16 +27,18 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.vibely.wc26.R
 import com.vibely.wc26.core.ui.components.StickerTile
+import com.vibely.wc26.feature.stickerdetail.StickerDetailSheet
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SpecialsScreen(
     onBack: () -> Unit,
-    onStickerClick: (String) -> Unit,
     modifier: Modifier = Modifier,
     viewModel: SpecialsViewModel = hiltViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val selected = state.selected
+
     Scaffold(
         modifier = modifier.fillMaxSize(),
         topBar = {
@@ -72,14 +74,30 @@ fun SpecialsScreen(
                     )
                 }
                 items(items = section.rows, key = { it.sticker.id }) { row ->
+                    val id = row.sticker.id
                     StickerTile(
                         slotLabel = row.sticker.id,
                         displayName = row.sticker.displayName,
                         quantity = row.quantity,
-                        onClick = { onStickerClick(row.sticker.id) },
+                        onClick = { viewModel.openSheet(id) },
+                        onLongClick = { viewModel.increment(id) },
+                        onSwipeRight = { viewModel.increment(id) },
+                        onSwipeLeft = { viewModel.decrement(id) },
                     )
                 }
             }
+        }
+
+        if (selected != null) {
+            StickerDetailSheet(
+                sticker = selected.sticker,
+                team = null,
+                quantity = selected.quantity,
+                onIncrement = { viewModel.increment(selected.sticker.id) },
+                onDecrement = { viewModel.decrement(selected.sticker.id) },
+                onSetQuantity = { value -> viewModel.setQuantity(selected.sticker.id, value) },
+                onDismiss = { viewModel.closeSheet() },
+            )
         }
     }
 }

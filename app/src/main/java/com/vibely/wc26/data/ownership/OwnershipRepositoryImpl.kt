@@ -19,6 +19,9 @@ internal class OwnershipRepositoryImpl @Inject constructor(
     override fun observeQuantity(stickerId: String): Flow<Int> =
         dao.observeQuantity(stickerId).map { it ?: 0 }
 
+    override suspend fun getQuantity(stickerId: String): Int =
+        dao.getQuantity(stickerId) ?: 0
+
     override suspend fun setQuantity(stickerId: String, quantity: Int) {
         if (quantity <= 0) {
             dao.delete(stickerId)
