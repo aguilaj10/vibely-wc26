@@ -27,6 +27,10 @@ import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalHapticFeedback
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
@@ -84,6 +88,10 @@ fun StickerTile(
     val baseModifier = modifier
         .aspectRatio(0.78f)
         .clip(shape)
+        .semantics {
+            role = Role.Button
+            contentDescription = ""
+        }
         .combinedClickable(onClick = onClick, onLongClick = onLongClick)
         .swipeOnce(
             thresholdPx = swipeThresholdPx,

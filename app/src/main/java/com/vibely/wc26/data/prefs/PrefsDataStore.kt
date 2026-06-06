@@ -32,7 +32,7 @@ private object Keys {
 
 @Singleton
 internal class PrefsDataStore @Inject constructor(
-    @ApplicationContext private val context: Context,
+    @param:ApplicationContext private val context: Context,
 ) : UserPreferencesRepository {
 
     private val store: DataStore<Preferences> = context.preferencesStore

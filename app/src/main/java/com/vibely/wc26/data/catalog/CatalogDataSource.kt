@@ -13,7 +13,7 @@ private const val ASSET_NAME = "stickers.json"
 
 @Singleton
 internal class CatalogDataSource @Inject constructor(
-    @ApplicationContext private val context: Context,
+    @param:ApplicationContext private val context: Context,
 ) {
     private val json = Json {
         ignoreUnknownKeys = true

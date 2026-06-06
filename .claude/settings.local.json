@@ -35,7 +35,13 @@
       "Bash(./gradlew assembleDebug)",
       "Bash(./gradlew installDebug)",
       "Bash(adb logcat *)",
-      "Bash(adb pull *)"
+      "Bash(adb pull *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(sips -Z 1500 /tmp/wc26_preview_full.png --out /tmp/wc26_preview.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight /tmp/wc26_preview.png)",
+      "Bash(sips -Z 1200 /tmp/wc26_preview_full.png --out /tmp/wc26_preview_sm.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight /tmp/wc26_preview_sm.png)"
     ]
   }
 }

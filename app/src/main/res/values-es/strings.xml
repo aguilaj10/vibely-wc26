@@ -11,6 +11,9 @@
 <resources>
     <!-- Catalog -->
     <string name="catalog_load_error">No se pudo cargar el catálogo: %1$s</string>
+    <string name="catalog_error_title">No se pudo cargar el catálogo de estampas</string>
+    <string name="catalog_error_description">Reinstalar la app suele resolverlo. Si sigues viendo esta pantalla, el archivo del catálogo puede estar dañado o faltar.</string>
+    <string name="catalog_error_retry">Intentar otra vez</string>
     <string name="stats_missing_duplicates">Faltantes: %1$d · Repetidas: %2$d en %3$d estampas</string>
 
     <!-- Home -->
@@ -125,6 +128,26 @@
     <string name="scan_no_match_description">Prueba con mejor luz, mantén la cámara firme y encuadra la estampa para que el nombre se vea claro. O elige al jugador manualmente.</string>
     <string name="scan_no_match_try_again">Intentar otra vez</string>
     <string name="scan_no_match_search">Buscar manualmente</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_section_appearance">Apariencia</string>
+    <string name="settings_section_defaults">Predeterminados</string>
+    <string name="settings_section_scan">Escaneo</string>
+    <string name="settings_section_data">Datos</string>
+    <string name="settings_section_about">Acerca de</string>
+    <string name="settings_theme_system">Seguir al sistema</string>
+    <string name="settings_theme_light">Claro</string>
+    <string name="settings_theme_dark">Oscuro</string>
+    <string name="settings_rapid_scan_title">Modo rápido</string>
+    <string name="settings_rapid_scan_description">Guarda +1 automáticamente cuando un escaneo coincide con alta confianza. Omite la confirmación.</string>
+    <string name="settings_reset_title">Restablecer progreso</string>
+    <string name="settings_reset_description">Borra los datos de propiedad. El catálogo se queda.</string>
+    <string name="settings_reset_confirm_title">¿Restablecer todo el progreso?</string>
+    <string name="settings_reset_confirm_body">Cada estampa volverá a faltar. Esto no se puede deshacer.</string>
+    <string name="settings_reset_confirm_action">Restablecer</string>
+    <string name="settings_reset_confirm_cancel">Cancelar</string>
+    <string name="settings_about_version">Versión %1$s (build %2$d)</string>
 
     <!-- Placeholder fallback -->
     <string name="placeholder_coming_soon">Próximamente.</string>
