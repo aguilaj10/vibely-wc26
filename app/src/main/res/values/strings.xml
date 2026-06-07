@@ -144,6 +144,20 @@
     <string name="settings_reset_confirm_cancel">Cancel</string>
     <string name="settings_about_version">Version %1$s (build %2$d)</string>
 
+    <!-- Import -->
+    <string name="import_title">Import quantities</string>
+    <string name="import_description">Paste CSV data from your Panini tracker spreadsheet. The last column should contain the quantity for each sticker.</string>
+    <string name="import_csv_label">CSV data</string>
+    <string name="import_csv_placeholder">MEX01,1\nMEX02,2\n...</string>
+    <string name="import_csv_support">%1$d stickers parsed</string>
+    <string name="import_action">Import quantities</string>
+    <string name="import_importing">Importing…</string>
+    <string name="import_confirm_title">Import quantities?</string>
+    <string name="import_confirm_body">This will replace all current quantities with the %1$d stickers from the CSV. Existing data for stickers not in the CSV will be cleared.</string>
+    <string name="import_confirm_action">Import</string>
+    <string name="import_settings_title">Import from CSV</string>
+    <string name="import_settings_description">Bulk update quantities from a spreadsheet export</string>
+
     <!-- Placeholder for any future stub screens -->
     <string name="placeholder_coming_soon">Coming in a later phase.</string>
 </resources>

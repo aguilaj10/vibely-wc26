@@ -150,6 +150,20 @@
     <string name="settings_reset_confirm_cancel">Cancelar</string>
     <string name="settings_about_version">Versión %1$s (build %2$d)</string>
 
+    <!-- Import -->
+    <string name="import_title">Importar cantidades</string>
+    <string name="import_description">Pega los datos CSV de tu hoja de seguimiento Panini. La última columna debe contener la cantidad de cada estampa.</string>
+    <string name="import_csv_label">Datos CSV</string>
+    <string name="import_csv_placeholder">MEX01,1\nMEX02,2\n...</string>
+    <string name="import_csv_support">%1$d estampas detectadas</string>
+    <string name="import_action">Importar cantidades</string>
+    <string name="import_importing">Importando…</string>
+    <string name="import_confirm_title">¿Importar cantidades?</string>
+    <string name="import_confirm_body">Esto reemplazará todas las cantidades actuales con las %1$d estampas del CSV. Los datos de estampas no incluidas se borrarán.</string>
+    <string name="import_confirm_action">Importar</string>
+    <string name="import_settings_title">Importar desde CSV</string>
+    <string name="import_settings_description">Actualizar cantidades en lote desde una exportación de hoja de cálculo</string>
+
     <!-- Placeholder fallback -->
     <string name="placeholder_coming_soon">Próximamente.</string>
 </resources>

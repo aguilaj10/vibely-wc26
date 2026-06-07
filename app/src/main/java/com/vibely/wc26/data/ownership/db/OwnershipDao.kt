@@ -7,7 +7,6 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 internal interface OwnershipDao {
-
     @Query("SELECT * FROM ownership")
     fun observeAll(): Flow<List<OwnershipEntity>>
 
@@ -19,6 +18,9 @@ internal interface OwnershipDao {
 
     @Upsert
     suspend fun upsert(entity: OwnershipEntity)
+
+    @Upsert
+    suspend fun upsertAll(entities: List<OwnershipEntity>)
 
     @Query("DELETE FROM ownership WHERE stickerId = :id")
     suspend fun delete(id: String)

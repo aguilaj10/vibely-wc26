@@ -14,6 +14,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
 import androidx.compose.material.icons.outlined.DeleteForever
+import androidx.compose.material.icons.outlined.FileUpload
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
@@ -47,6 +48,7 @@ import com.vibely.wc26.domain.prefs.ThemeMode
 @Composable
 fun SettingsScreen(
     onBack: () -> Unit,
+    onImport: () -> Unit = {},
     modifier: Modifier = Modifier,
     viewModel: SettingsViewModel = hiltViewModel(),
 ) {
@@ -70,10 +72,11 @@ fun SettingsScreen(
         },
     ) { inner ->
         Column(
-            modifier = Modifier
-                .padding(inner)
-                .fillMaxSize()
-                .verticalScroll(rememberScrollState()),
+            modifier =
+                Modifier
+                    .padding(inner)
+                    .fillMaxSize()
+                    .verticalScroll(rememberScrollState()),
         ) {
             SectionHeader(text = stringResource(R.string.settings_section_appearance))
             ThemeChoiceGroup(
@@ -99,6 +102,11 @@ fun SettingsScreen(
 
             HorizontalDivider()
             SectionHeader(text = stringResource(R.string.settings_section_data))
+            ActionRow(
+                title = stringResource(R.string.import_settings_title),
+                description = stringResource(R.string.import_settings_description),
+                onClick = onImport,
+            )
             DangerRow(
                 title = stringResource(R.string.settings_reset_title),
                 description = stringResource(R.string.settings_reset_description),
@@ -134,7 +142,10 @@ private fun SectionHeader(text: String) {
 }
 
 @Composable
-private fun ThemeChoiceGroup(current: ThemeMode, onChange: (ThemeMode) -> Unit) {
+private fun ThemeChoiceGroup(
+    current: ThemeMode,
+    onChange: (ThemeMode) -> Unit,
+) {
     Column(modifier = Modifier.fillMaxWidth()) {
         ThemeMode.entries.forEach { mode ->
             RadioRow(
@@ -147,7 +158,10 @@ private fun ThemeChoiceGroup(current: ThemeMode, onChange: (ThemeMode) -> Unit) 
 }
 
 @Composable
-private fun PlayerSortChoiceGroup(current: PlayerSort, onChange: (PlayerSort) -> Unit) {
+private fun PlayerSortChoiceGroup(
+    current: PlayerSort,
+    onChange: (PlayerSort) -> Unit,
+) {
     Column(modifier = Modifier.fillMaxWidth()) {
         PlayerSort.entries.forEach { sort ->
             RadioRow(
@@ -160,12 +174,17 @@ private fun PlayerSortChoiceGroup(current: PlayerSort, onChange: (PlayerSort) ->
 }
 
 @Composable
-private fun RadioRow(label: String, selected: Boolean, onClick: () -> Unit) {
+private fun RadioRow(
+    label: String,
+    selected: Boolean,
+    onClick: () -> Unit,
+) {
     Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable(onClick = onClick)
-            .padding(horizontal = 20.dp, vertical = 12.dp),
+        modifier =
+            Modifier
+                .fillMaxWidth()
+                .clickable(onClick = onClick)
+                .padding(horizontal = 20.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
@@ -175,36 +194,6 @@ private fun RadioRow(label: String, selected: Boolean, onClick: () -> Unit) {
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onSurface,
         )
-    }
-}
-
-@Composable
-private fun SwitchRow(
-    title: String,
-    description: String,
-    checked: Boolean,
-    onCheckedChange: (Boolean) -> Unit,
-) {
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable { onCheckedChange(!checked) }
-            .padding(horizontal = 20.dp, vertical = 12.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Column(modifier = Modifier.weight(1f)) {
-            Text(
-                text = title,
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurface,
-            )
-            Text(
-                text = description,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
-        Switch(checked = checked, onCheckedChange = onCheckedChange)
     }
 }
 
@@ -239,6 +228,74 @@ private fun DangerRow(title: String, description: String, onClick: () -> Unit) {
 }
 
 @Composable
+private fun ActionRow(title: String, description: String, onClick: () -> Unit) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick)
+            .padding(horizontal = 20.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        Icon(
+            imageVector = Icons.Outlined.FileUpload,
+            contentDescription = null,
+            tint = MaterialTheme.colorScheme.primary,
+        )
+        Column(modifier = Modifier.weight(1f)) {
+            Text(
+                text = title,
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurface,
+            )
+            Text(
+                text = description,
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+    }
+}
+        Switch(checked = checked, onCheckedChange = onCheckedChange)
+    }
+}
+
+@Composable
+private fun DangerRow(
+    title: String,
+    description: String,
+    onClick: () -> Unit,
+) {
+    Row(
+        modifier =
+            Modifier
+                .fillMaxWidth()
+                .clickable(onClick = onClick)
+                .padding(horizontal = 20.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        Icon(
+            imageVector = Icons.Outlined.DeleteForever,
+            contentDescription = null,
+            tint = MaterialTheme.colorScheme.error,
+        )
+        Column(modifier = Modifier.weight(1f)) {
+            Text(
+                text = title,
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.error,
+            )
+            Text(
+                text = description,
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+    }
+}
+
+@Composable
 private fun AboutRow() {
     Column(modifier = Modifier.padding(horizontal = 20.dp, vertical = 8.dp)) {
         Text(
@@ -247,11 +304,12 @@ private fun AboutRow() {
             color = MaterialTheme.colorScheme.onSurface,
         )
         Text(
-            text = stringResource(
-                R.string.settings_about_version,
-                BuildConfig.VERSION_NAME,
-                BuildConfig.VERSION_CODE,
-            ),
+            text =
+                stringResource(
+                    R.string.settings_about_version,
+                    BuildConfig.VERSION_NAME,
+                    BuildConfig.VERSION_CODE,
+                ),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
@@ -259,7 +317,10 @@ private fun AboutRow() {
 }
 
 @Composable
-private fun ResetConfirmDialog(onConfirm: () -> Unit, onDismiss: () -> Unit) {
+private fun ResetConfirmDialog(
+    onConfirm: () -> Unit,
+    onDismiss: () -> Unit,
+) {
     AlertDialog(
         onDismissRequest = onDismiss,
         icon = {
@@ -289,13 +350,15 @@ private fun ResetConfirmDialog(onConfirm: () -> Unit, onDismiss: () -> Unit) {
     )
 }
 
-private fun themeLabelRes(mode: ThemeMode): Int = when (mode) {
-    ThemeMode.System -> R.string.settings_theme_system
-    ThemeMode.Light -> R.string.settings_theme_light
-    ThemeMode.Dark -> R.string.settings_theme_dark
-}
+private fun themeLabelRes(mode: ThemeMode): Int =
+    when (mode) {
+        ThemeMode.System -> R.string.settings_theme_system
+        ThemeMode.Light -> R.string.settings_theme_light
+        ThemeMode.Dark -> R.string.settings_theme_dark
+    }
 
-private fun sortLabelRes(sort: PlayerSort): Int = when (sort) {
-    PlayerSort.Slot -> R.string.sort_by_slot
-    PlayerSort.Alphabetical -> R.string.sort_by_name
-}
+private fun sortLabelRes(sort: PlayerSort): Int =
+    when (sort) {
+        PlayerSort.Slot -> R.string.sort_by_slot
+        PlayerSort.Alphabetical -> R.string.sort_by_name
+    }

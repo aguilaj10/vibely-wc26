@@ -34,6 +34,7 @@ import androidx.navigation3.ui.NavDisplay
 import com.vibely.wc26.core.navigation.BrowseGroups
 import com.vibely.wc26.core.navigation.BrowseTeams
 import com.vibely.wc26.core.navigation.Home
+import com.vibely.wc26.core.navigation.Import
 import com.vibely.wc26.core.navigation.Scan
 import com.vibely.wc26.core.navigation.Search
 import com.vibely.wc26.core.navigation.Settings
@@ -47,6 +48,7 @@ import com.vibely.wc26.feature.browse.specials.SpecialsScreen
 import com.vibely.wc26.feature.browse.teams.BrowseTeamsScreen
 import com.vibely.wc26.feature.browse.teamsheet.TeamSheetScreen
 import com.vibely.wc26.feature.home.HomeScreen
+import com.vibely.wc26.feature.importcsv.ImportScreen
 import com.vibely.wc26.feature.scan.ScanScreen
 import com.vibely.wc26.feature.search.SearchScreen
 import com.vibely.wc26.feature.settings.SettingsScreen
@@ -62,19 +64,28 @@ class MainActivity : ComponentActivity() {
             val shell: AppShellViewModel = hiltViewModel()
             val themeMode by shell.themeMode.collectAsStateWithLifecycle()
             val catalogState by shell.catalogState.collectAsStateWithLifecycle()
-            val darkTheme = when (themeMode) {
-                ThemeMode.System -> isSystemInDarkTheme()
-                ThemeMode.Light -> false
-                ThemeMode.Dark -> true
-            }
+            val darkTheme =
+                when (themeMode) {
+                    ThemeMode.System -> isSystemInDarkTheme()
+                    ThemeMode.Light -> false
+                    ThemeMode.Dark -> true
+                }
             PaniniWC26Theme(darkTheme = darkTheme) {
                 when (val state = catalogState) {
-                    CatalogState.Loading -> CatalogLoadingGate()
-                    is CatalogState.Error -> CatalogErrorGate(
-                        message = state.message,
-                        onRetry = shell::retryCatalogLoad,
-                    )
-                    CatalogState.Ready -> App()
+                    CatalogState.Loading -> {
+                        CatalogLoadingGate()
+                    }
+
+                    is CatalogState.Error -> {
+                        CatalogErrorGate(
+                            message = state.message,
+                            onRetry = shell::retryCatalogLoad,
+                        )
+                    }
+
+                    CatalogState.Ready -> {
+                        App()
+                    }
                 }
             }
         }
@@ -88,66 +99,73 @@ private fun App() {
     NavDisplay(
         backStack = backStack,
         onBack = { backStack.removeLastOrNull() },
-        entryProvider = entryProvider {
-            entry<Home> {
-                HomeScreen(
-                    onBrowse = { backStack.add(BrowseGroups) },
-                    onSearch = { backStack.add(Search) },
-                    onScan = { backStack.add(Scan) },
-                    onStats = { backStack.add(Stats) },
-                    onSettings = { backStack.add(Settings) },
-                )
-            }
-            entry<BrowseGroups> {
-                BrowseGroupsScreen(
-                    onBack = { backStack.removeLastOrNull() },
-                    onGroupClick = { letter -> backStack.add(BrowseTeams(letter)) },
-                    onSpecialsClick = { backStack.add(Specials) },
-                )
-            }
-            entry<BrowseTeams> { key ->
-                BrowseTeamsScreen(
-                    groupLetter = key.groupLetter,
-                    onBack = { backStack.removeLastOrNull() },
-                    onTeamClick = { code -> backStack.add(TeamSheet(code)) },
-                )
-            }
-            entry<TeamSheet> { key ->
-                TeamSheetScreen(
-                    teamCode = key.teamCode,
-                    onBack = { backStack.removeLastOrNull() },
-                )
-            }
-            entry<Specials> {
-                SpecialsScreen(
-                    onBack = { backStack.removeLastOrNull() },
-                )
-            }
-            entry<Search> {
-                SearchScreen(
-                    onBack = { backStack.removeLastOrNull() },
-                )
-            }
-            entry<Scan> {
-                ScanScreen(
-                    onBack = { backStack.removeLastOrNull() },
-                    onSearch = {
-                        backStack.removeLastOrNull()
-                        backStack.add(Search)
-                    },
-                )
-            }
-            entry<Stats> {
-                StatsScreen(
-                    onBack = { backStack.removeLastOrNull() },
-                )
-            }
-            entry<Settings> {
-                SettingsScreen(
-                    onBack = { backStack.removeLastOrNull() },
-                )
-            }
-        },
+        entryProvider =
+            entryProvider {
+                entry<Home> {
+                    HomeScreen(
+                        onBrowse = { backStack.add(BrowseGroups) },
+                        onSearch = { backStack.add(Search) },
+                        onScan = { backStack.add(Scan) },
+                        onStats = { backStack.add(Stats) },
+                        onSettings = { backStack.add(Settings) },
+                    )
+                }
+                entry<BrowseGroups> {
+                    BrowseGroupsScreen(
+                        onBack = { backStack.removeLastOrNull() },
+                        onGroupClick = { letter -> backStack.add(BrowseTeams(letter)) },
+                        onSpecialsClick = { backStack.add(Specials) },
+                    )
+                }
+                entry<BrowseTeams> { key ->
+                    BrowseTeamsScreen(
+                        groupLetter = key.groupLetter,
+                        onBack = { backStack.removeLastOrNull() },
+                        onTeamClick = { code -> backStack.add(TeamSheet(code)) },
+                    )
+                }
+                entry<TeamSheet> { key ->
+                    TeamSheetScreen(
+                        teamCode = key.teamCode,
+                        onBack = { backStack.removeLastOrNull() },
+                    )
+                }
+                entry<Specials> {
+                    SpecialsScreen(
+                        onBack = { backStack.removeLastOrNull() },
+                    )
+                }
+                entry<Search> {
+                    SearchScreen(
+                        onBack = { backStack.removeLastOrNull() },
+                    )
+                }
+                entry<Scan> {
+                    ScanScreen(
+                        onBack = { backStack.removeLastOrNull() },
+                        onSearch = {
+                            backStack.removeLastOrNull()
+                            backStack.add(Search)
+                        },
+                    )
+                }
+                entry<Stats> {
+                    StatsScreen(
+                        onBack = { backStack.removeLastOrNull() },
+                    )
+                }
+                entry<Settings> {
+                    SettingsScreen(
+                        onBack = { backStack.removeLastOrNull() },
+                        onImport = { backStack.add(Import) },
+                    )
+                }
+                entry<Import> {
+                    ImportScreen(
+                        onBack = { backStack.removeLastOrNull() },
+                    )
+                }
+            },
     )
 }
 
@@ -159,11 +177,15 @@ private fun CatalogLoadingGate() {
 }
 
 @Composable
-private fun CatalogErrorGate(message: String, onRetry: () -> Unit) {
+private fun CatalogErrorGate(
+    message: String,
+    onRetry: () -> Unit,
+) {
     Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(32.dp),
+        modifier =
+            Modifier
+                .fillMaxSize()
+                .padding(32.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
