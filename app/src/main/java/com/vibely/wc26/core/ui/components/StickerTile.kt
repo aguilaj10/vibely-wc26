@@ -85,53 +85,78 @@ fun StickerTile(
     val density = LocalDensity.current
     val swipeThresholdPx = with(density) { SwipeThresholdDp.dp.toPx() }
 
-    val baseModifier = modifier
-        .aspectRatio(0.78f)
-        .clip(shape)
-        .semantics {
-            role = Role.Button
-            contentDescription = ""
-        }
-        .combinedClickable(onClick = onClick, onLongClick = onLongClick)
-        .swipeOnce(
-            thresholdPx = swipeThresholdPx,
-            onSwipeRight = onSwipeRight?.let {
-                {
-                    haptics.performHapticFeedback(HapticFeedbackType.LongPress)
-                    it()
+    val tileDescription =
+        buildString {
+            append(displayName)
+            append(", ")
+            when {
+                quantity == 0 -> {
+                    append("missing")
                 }
-            },
-            onSwipeLeft = onSwipeLeft?.let {
-                {
-                    haptics.performHapticFeedback(HapticFeedbackType.LongPress)
-                    it()
-                }
-            },
-        )
 
-    val containerModifier = if (owned) {
-        baseModifier.background(MaterialTheme.colorScheme.surface)
-    } else {
-        // dashed outline for empty slot, faithful to the printed album
-        baseModifier
-            .background(MaterialTheme.colorScheme.surfaceVariant)
-            .drawBehind {
-                drawRoundRect(
-                    color = outline,
-                    style = Stroke(
-                        width = 1.5.dp.toPx(),
-                        pathEffect = PathEffect.dashPathEffect(floatArrayOf(8f, 6f), 0f),
-                    ),
-                    cornerRadius = CornerRadius(10.dp.toPx()),
-                )
+                isDuplicated(quantity) -> {
+                    append("owned, ")
+                    append(duplicatesOf(quantity) + 1)
+                    append(" copies")
+                }
+
+                else -> {
+                    append("owned")
+                }
             }
-    }
+        }
+    val baseModifier =
+        modifier
+            .aspectRatio(0.78f)
+            .clip(shape)
+            .semantics {
+                role = Role.Button
+                contentDescription = tileDescription
+            }.combinedClickable(onClick = onClick, onLongClick = onLongClick)
+            .swipeOnce(
+                thresholdPx = swipeThresholdPx,
+                onSwipeRight =
+                    onSwipeRight?.let {
+                        {
+                            haptics.performHapticFeedback(HapticFeedbackType.LongPress)
+                            it()
+                        }
+                    },
+                onSwipeLeft =
+                    onSwipeLeft?.let {
+                        {
+                            haptics.performHapticFeedback(HapticFeedbackType.LongPress)
+                            it()
+                        }
+                    },
+            )
+
+    val containerModifier =
+        if (owned) {
+            baseModifier.background(MaterialTheme.colorScheme.surface)
+        } else {
+            // dashed outline for empty slot, faithful to the printed album
+            baseModifier
+                .background(MaterialTheme.colorScheme.surfaceVariant)
+                .drawBehind {
+                    drawRoundRect(
+                        color = outline,
+                        style =
+                            Stroke(
+                                width = 1.5.dp.toPx(),
+                                pathEffect = PathEffect.dashPathEffect(floatArrayOf(8f, 6f), 0f),
+                            ),
+                        cornerRadius = CornerRadius(10.dp.toPx()),
+                    )
+                }
+        }
 
     Box(modifier = containerModifier) {
         Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(horizontal = 8.dp, vertical = 6.dp),
+            modifier =
+                Modifier
+                    .fillMaxSize()
+                    .padding(horizontal = 8.dp, vertical = 6.dp),
             verticalArrangement = Arrangement.SpaceBetween,
         ) {
             Row(
@@ -141,8 +166,12 @@ fun StickerTile(
                 Text(
                     text = slotLabel,
                     style = MaterialTheme.typography.labelSmall.copy(fontFamily = FontFamily.Monospace),
-                    color = if (owned) MaterialTheme.colorScheme.onSurface
-                    else MaterialTheme.colorScheme.onSurfaceVariant,
+                    color =
+                        if (owned) {
+                            MaterialTheme.colorScheme.onSurface
+                        } else {
+                            MaterialTheme.colorScheme.onSurfaceVariant
+                        },
                 )
                 if (isDuplicated(quantity)) {
                     Text(
@@ -155,14 +184,19 @@ fun StickerTile(
             Text(
                 text = displayName,
                 style = MaterialTheme.typography.bodySmall,
-                color = if (owned) MaterialTheme.colorScheme.onSurface
-                else MaterialTheme.colorScheme.onSurfaceVariant,
+                color =
+                    if (owned) {
+                        MaterialTheme.colorScheme.onSurface
+                    } else {
+                        MaterialTheme.colorScheme.onSurfaceVariant
+                    },
                 maxLines = 2,
                 overflow = TextOverflow.Ellipsis,
                 textAlign = TextAlign.Center,
-                modifier = Modifier
-                    .align(Alignment.CenterHorizontally)
-                    .padding(bottom = 4.dp),
+                modifier =
+                    Modifier
+                        .align(Alignment.CenterHorizontally)
+                        .padding(bottom = 4.dp),
             )
         }
     }
@@ -187,8 +221,14 @@ private fun Modifier.swipeOnce(
                 totalDrag = 0f
                 fired = false
             },
-            onDragEnd = { totalDrag = 0f; fired = false },
-            onDragCancel = { totalDrag = 0f; fired = false },
+            onDragEnd = {
+                totalDrag = 0f
+                fired = false
+            },
+            onDragCancel = {
+                totalDrag = 0f
+                fired = false
+            },
             onHorizontalDrag = { _, dragAmount ->
                 if (fired) return@detectHorizontalDragGestures
                 totalDrag += dragAmount
@@ -208,9 +248,10 @@ private const val SwipeThresholdDp = 32
 private fun StickerTilePreview() {
     PaniniWC26Theme {
         Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(12.dp),
+            modifier =
+                Modifier
+                    .fillMaxWidth()
+                    .padding(12.dp),
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             StickerTile(

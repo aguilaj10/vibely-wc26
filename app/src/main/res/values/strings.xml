@@ -53,6 +53,7 @@
     <string name="sticker_detail_increment">Add one</string>
     <string name="sticker_detail_decrement">Remove one</string>
     <string name="sticker_detail_no_duplicates">No duplicates</string>
+    <string name="sticker_detail_gesture_help">Swipe right to add one, swipe left to remove. Long-press to quick add.</string>
     <plurals name="sticker_detail_duplicates">
         <item quantity="one">You have %1$d duplicate (%2$d to trade)</item>
         <item quantity="other">You have %1$d duplicates (%2$d to trade)</item>

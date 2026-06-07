@@ -59,6 +59,7 @@
     <string name="sticker_detail_increment">Sumar una</string>
     <string name="sticker_detail_decrement">Restar una</string>
     <string name="sticker_detail_no_duplicates">Sin repetidas</string>
+    <string name="sticker_detail_gesture_help">Desliza a la derecha para sumar, a la izquierda para restar. Mantén pulsado para sumar rápido.</string>
     <plurals name="sticker_detail_duplicates">
         <item quantity="one">Tienes %1$d repetida (%2$d para cambiar)</item>
         <item quantity="other">Tienes %1$d repetidas (%2$d para cambiar)</item>

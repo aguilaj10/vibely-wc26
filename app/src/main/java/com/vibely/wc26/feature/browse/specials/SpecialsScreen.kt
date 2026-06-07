@@ -26,6 +26,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.vibely.wc26.R
+import com.vibely.wc26.core.ui.components.FoilTile
 import com.vibely.wc26.core.ui.components.StickerTile
 import com.vibely.wc26.feature.stickerdetail.StickerDetailSheet
 
@@ -68,22 +69,36 @@ fun SpecialsScreen(
                         text = section.name,
                         style = MaterialTheme.typography.titleSmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(top = 8.dp, bottom = 4.dp),
+                        modifier =
+                            Modifier
+                                .fillMaxWidth()
+                                .padding(top = 8.dp, bottom = 4.dp),
                     )
                 }
                 items(items = section.rows, key = { it.sticker.id }) { row ->
                     val id = row.sticker.id
-                    StickerTile(
-                        slotLabel = row.sticker.id,
-                        displayName = row.sticker.displayName,
-                        quantity = row.quantity,
-                        onClick = { viewModel.openSheet(id) },
-                        onLongClick = { viewModel.increment(id) },
-                        onSwipeRight = { viewModel.increment(id) },
-                        onSwipeLeft = { viewModel.decrement(id) },
-                    )
+                    val tileProps = Triple(row.sticker.id, row.sticker.displayName, row.quantity)
+                    if (section.name == "Section 1") {
+                        FoilTile(
+                            slotLabel = tileProps.first,
+                            displayName = tileProps.second,
+                            quantity = tileProps.third,
+                            onClick = { viewModel.openSheet(id) },
+                            onLongClick = { viewModel.increment(id) },
+                            onSwipeRight = { viewModel.increment(id) },
+                            onSwipeLeft = { viewModel.decrement(id) },
+                        )
+                    } else {
+                        StickerTile(
+                            slotLabel = tileProps.first,
+                            displayName = tileProps.second,
+                            quantity = tileProps.third,
+                            onClick = { viewModel.openSheet(id) },
+                            onLongClick = { viewModel.increment(id) },
+                            onSwipeRight = { viewModel.increment(id) },
+                            onSwipeLeft = { viewModel.decrement(id) },
+                        )
+                    }
                 }
             }
         }

@@ -96,9 +96,10 @@ private fun StickerDetailContent(
     onSetQuantity: (Int) -> Unit,
 ) {
     Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(horizontal = 24.dp, vertical = 8.dp),
+        modifier =
+            Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 24.dp, vertical = 8.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Text(
@@ -123,6 +124,13 @@ private fun StickerDetailContent(
         )
         Spacer(modifier = Modifier.height(16.dp))
         DuplicatesLine(quantity = quantity)
+        Spacer(modifier = Modifier.height(12.dp))
+        Text(
+            text = stringResource(R.string.sticker_detail_gesture_help),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            textAlign = TextAlign.Center,
+        )
         Spacer(modifier = Modifier.height(24.dp))
     }
 }
@@ -165,10 +173,11 @@ private fun Stepper(
                     text = quantity.toString(),
                     style = MaterialTheme.typography.displaySmall,
                     color = MaterialTheme.colorScheme.onSurface,
-                    modifier = Modifier
-                        .clip(MaterialTheme.shapes.small)
-                        .padding(horizontal = 8.dp, vertical = 2.dp)
-                        .clickableNoIndication { editing = true },
+                    modifier =
+                        Modifier
+                            .clip(MaterialTheme.shapes.small)
+                            .padding(horizontal = 8.dp, vertical = 2.dp)
+                            .clickableNoIndication { editing = true },
                 )
             }
         }
@@ -193,10 +202,11 @@ private fun StepperButton(
         onClick = onClick,
         enabled = enabled,
         shape = CircleShape,
-        colors = IconButtonDefaults.filledIconButtonColors(
-            containerColor = MaterialTheme.colorScheme.secondaryContainer,
-            contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
-        ),
+        colors =
+            IconButtonDefaults.filledIconButtonColors(
+                containerColor = MaterialTheme.colorScheme.secondaryContainer,
+                contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
+            ),
     ) {
         Icon(imageVector = icon, contentDescription = contentDescription)
     }
@@ -218,19 +228,22 @@ private fun QuantityField(
             text = raw.filter(Char::isDigit).take(3)
         },
         singleLine = true,
-        keyboardOptions = KeyboardOptions(
-            keyboardType = KeyboardType.Number,
-            imeAction = ImeAction.Done,
-        ),
-        keyboardActions = KeyboardActions(
-            onDone = {
-                val parsed = text.toIntOrNull()
-                if (parsed != null) onConfirm(parsed.coerceAtLeast(0)) else onCancel()
-            },
-        ),
-        modifier = Modifier
-            .widthIn(min = 96.dp)
-            .focusRequester(focusRequester),
+        keyboardOptions =
+            KeyboardOptions(
+                keyboardType = KeyboardType.Number,
+                imeAction = ImeAction.Done,
+            ),
+        keyboardActions =
+            KeyboardActions(
+                onDone = {
+                    val parsed = text.toIntOrNull()
+                    if (parsed != null) onConfirm(parsed.coerceAtLeast(0)) else onCancel()
+                },
+            ),
+        modifier =
+            Modifier
+                .widthIn(min = 96.dp)
+                .focusRequester(focusRequester),
     )
 }
 
@@ -253,20 +266,32 @@ private fun DuplicatesLine(quantity: Int) {
 }
 
 @Composable
-private fun headerLine(sticker: Sticker, team: Team?): String = when {
-    team != null -> stringResource(
-        R.string.sticker_detail_header_team,
-        sticker.id,
-        team.name,
-        team.group,
-    )
-    sticker.section != null -> stringResource(
-        R.string.sticker_detail_header_special,
-        sticker.id,
-        sticker.section,
-    )
-    else -> sticker.id
-}
+private fun headerLine(
+    sticker: Sticker,
+    team: Team?,
+): String =
+    when {
+        team != null -> {
+            stringResource(
+                R.string.sticker_detail_header_team,
+                sticker.id,
+                team.name,
+                team.group,
+            )
+        }
+
+        sticker.section != null -> {
+            stringResource(
+                R.string.sticker_detail_header_special,
+                sticker.id,
+                sticker.section,
+            )
+        }
+
+        else -> {
+            sticker.id
+        }
+    }
 
 /** Clickable text without a ripple — feels lighter for tap-to-edit affordance. */
 @Composable

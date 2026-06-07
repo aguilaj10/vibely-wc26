@@ -64,11 +64,12 @@ fun TeamSheetScreen(
                 title = {
                     if (team != null) {
                         Text(
-                            text = stringResource(
-                                R.string.team_sheet_title_format,
-                                team.name,
-                                team.group,
-                            ),
+                            text =
+                                stringResource(
+                                    R.string.team_sheet_title_format,
+                                    team.name,
+                                    team.group,
+                                ),
                         )
                     } else {
                         Text(text = "")
@@ -124,8 +125,11 @@ fun TeamSheetScreen(
                 items(items = state.rows, key = { it.sticker.id }) { row ->
                     val id = row.sticker.id
                     StickerTile(
-                        slotLabel = row.sticker.slotIndex?.toString()?.padStart(2, '0') ?: "—",
-                        displayName = shortName(row.sticker.displayName),
+                        slotLabel =
+                            row.sticker.slotIndex
+                                ?.toString()
+                                ?.padStart(2, '0') ?: "—",
+                        displayName = row.sticker.displayName,
                         quantity = row.quantity,
                         onClick = { viewModel.openSheet(id) },
                         onLongClick = { viewModel.increment(id) },
@@ -160,14 +164,14 @@ fun TeamSheetScreen(
 }
 
 @Composable
-private fun SortMenuItem(label: String, selected: Boolean, onClick: () -> Unit) {
+private fun SortMenuItem(
+    label: String,
+    selected: Boolean,
+    onClick: () -> Unit,
+) {
     DropdownMenuItem(
         text = { Text(label) },
         leadingIcon = { RadioButton(selected = selected, onClick = onClick) },
         onClick = onClick,
     )
 }
-
-/** Last word of the name — fits the 4-col grid. "Luis Malagón" → "Malagón". */
-private fun shortName(full: String): String =
-    full.trim().substringAfterLast(' ').ifEmpty { full }
