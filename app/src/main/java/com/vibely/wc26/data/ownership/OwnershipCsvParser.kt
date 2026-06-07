@@ -8,7 +8,6 @@ package com.vibely.wc26.data.ownership
  * Sticker ID,Player Name,Quantity
  * MEX01,Mexico,1
  * MEX02,Luis Malagón,2
- * ...
  * ```
  *
  * Or simplified format (ID and quantity only):
@@ -16,6 +15,11 @@ package com.vibely.wc26.data.ownership
  * MEX01,1
  * MEX02,2
  * ```
+ *
+ * Limitation: uses `String.split(",")` and is NOT fully RFC 4180 compliant —
+ * fields containing literal commas or escaped quotes inside quotes will misparse.
+ * The Panini tracker export only has player names (no commas, no quotes) so this
+ * is safe for the supported input shape.
  */
 internal object OwnershipCsvParser {
     data class ParseResult(

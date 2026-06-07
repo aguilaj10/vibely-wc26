@@ -179,16 +179,10 @@ private fun RadioRow(
     selected: Boolean,
     onClick: () -> Unit,
 ) {
-    Row(
-        modifier =
-            Modifier
-                .fillMaxWidth()
-                .clickable(onClick = onClick)
-                .padding(horizontal = 20.dp, vertical = 12.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
+    SettingsRow(
+        onClick = onClick,
+        leading = { RadioButton(selected = selected, onClick = onClick) },
     ) {
-        RadioButton(selected = selected, onClick = onClick)
         Text(
             text = label,
             style = MaterialTheme.typography.bodyLarge,
@@ -204,28 +198,11 @@ private fun SwitchRow(
     checked: Boolean,
     onCheckedChange: (Boolean) -> Unit,
 ) {
-    Row(
-        modifier =
-            Modifier
-                .fillMaxWidth()
-                .clickable { onCheckedChange(!checked) }
-                .padding(horizontal = 20.dp, vertical = 12.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
+    SettingsRow(
+        onClick = { onCheckedChange(!checked) },
+        trailing = { Switch(checked = checked, onCheckedChange = onCheckedChange) },
     ) {
-        Column(modifier = Modifier.weight(1f)) {
-            Text(
-                text = title,
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurface,
-            )
-            Text(
-                text = description,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
-        Switch(checked = checked, onCheckedChange = onCheckedChange)
+        TitleDescription(title = title, description = description)
     }
 }
 
@@ -235,32 +212,17 @@ private fun DangerRow(
     description: String,
     onClick: () -> Unit,
 ) {
-    Row(
-        modifier =
-            Modifier
-                .fillMaxWidth()
-                .clickable(onClick = onClick)
-                .padding(horizontal = 20.dp, vertical = 12.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
+    SettingsRow(
+        onClick = onClick,
+        leading = {
+            Icon(
+                imageVector = Icons.Outlined.DeleteForever,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.error,
+            )
+        },
     ) {
-        Icon(
-            imageVector = Icons.Outlined.DeleteForever,
-            contentDescription = null,
-            tint = MaterialTheme.colorScheme.error,
-        )
-        Column(modifier = Modifier.weight(1f)) {
-            Text(
-                text = title,
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.error,
-            )
-            Text(
-                text = description,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
+        TitleDescription(title = title, description = description, titleColor = MaterialTheme.colorScheme.error)
     }
 }
 
@@ -270,33 +232,59 @@ private fun ActionRow(
     description: String,
     onClick: () -> Unit,
 ) {
+    SettingsRow(
+        onClick = onClick,
+        leading = {
+            Icon(
+                imageVector = Icons.Outlined.FileUpload,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.primary,
+            )
+        },
+    ) {
+        TitleDescription(title = title, description = description)
+    }
+}
+
+@Composable
+private fun SettingsRow(
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+    leading: @Composable (() -> Unit)? = null,
+    trailing: @Composable (() -> Unit)? = null,
+    content: @Composable androidx.compose.foundation.layout.ColumnScope.() -> Unit,
+) {
     Row(
         modifier =
-            Modifier
+            modifier
                 .fillMaxWidth()
                 .clickable(onClick = onClick)
                 .padding(horizontal = 20.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Icon(
-            imageVector = Icons.Outlined.FileUpload,
-            contentDescription = null,
-            tint = MaterialTheme.colorScheme.primary,
-        )
-        Column(modifier = Modifier.weight(1f)) {
-            Text(
-                text = title,
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurface,
-            )
-            Text(
-                text = description,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
+        leading?.invoke()
+        Column(modifier = Modifier.weight(1f)) { content() }
+        trailing?.invoke()
     }
+}
+
+@Composable
+private fun TitleDescription(
+    title: String,
+    description: String,
+    titleColor: androidx.compose.ui.graphics.Color = MaterialTheme.colorScheme.onSurface,
+) {
+    Text(
+        text = title,
+        style = MaterialTheme.typography.bodyLarge,
+        color = titleColor,
+    )
+    Text(
+        text = description,
+        style = MaterialTheme.typography.bodySmall,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+    )
 }
 
 @Composable

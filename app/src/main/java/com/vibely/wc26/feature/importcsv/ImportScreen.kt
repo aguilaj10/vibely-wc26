@@ -33,6 +33,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.vibely.wc26.R
+import com.vibely.wc26.domain.usecase.ImportOwnershipUseCase
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -104,12 +105,19 @@ fun ImportScreen(
                 )
             }
 
-            if (state.resultMessage != null) {
+            if (state.result != null) {
+                val result = state.result!!
+                val (text, isError) =
+                    if (result.error != null) {
+                        stringResource(R.string.import_error, result.error) to true
+                    } else {
+                        formatSuccess(result) to false
+                    }
                 Text(
-                    text = state.resultMessage!!,
+                    text = text,
                     style = MaterialTheme.typography.bodyMedium,
                     color =
-                        if (state.isError) {
+                        if (isError) {
                             MaterialTheme.colorScheme.error
                         } else {
                             MaterialTheme.colorScheme.primary
@@ -129,6 +137,13 @@ fun ImportScreen(
             onDismiss = { showConfirmDialog = false },
         )
     }
+}
+
+private fun formatSuccess(result: ImportOwnershipUseCase.ImportResult): String {
+    val parts = mutableListOf("Imported ${result.importedCount} stickers")
+    if (result.skippedIds.isNotEmpty()) parts += "Skipped ${result.skippedIds.size} (quantity ≤ 0)"
+    if (result.unknownIds.isNotEmpty()) parts += "Unknown IDs: ${result.unknownIds.joinToString(", ")}"
+    return parts.joinToString(separator = "\n")
 }
 
 @Composable

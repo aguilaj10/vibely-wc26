@@ -15,6 +15,7 @@ class ImportOwnershipUseCase
             val importedCount: Int,
             val skippedIds: List<String>,
             val unknownIds: List<String>,
+            val error: String? = null,
         )
 
         suspend operator fun invoke(csv: String): ImportResult {

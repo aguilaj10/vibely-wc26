@@ -157,6 +157,7 @@
     <string name="import_confirm_action">Import</string>
     <string name="import_settings_title">Import from CSV</string>
     <string name="import_settings_description">Bulk update quantities from a spreadsheet export</string>
+    <string name="import_error">Import failed: %1$s</string>
 
     <!-- Placeholder for any future stub screens -->
     <string name="placeholder_coming_soon">Coming in a later phase.</string>

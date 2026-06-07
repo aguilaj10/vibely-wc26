@@ -77,26 +77,32 @@ fun SpecialsScreen(
                 }
                 items(items = section.rows, key = { it.sticker.id }) { row ->
                     val id = row.sticker.id
-                    val tileProps = Triple(row.sticker.id, row.sticker.displayName, row.quantity)
-                    if (section.name == "Section 1") {
-                        FoilTile(
-                            slotLabel = tileProps.first,
-                            displayName = tileProps.second,
-                            quantity = tileProps.third,
+                    val handlers =
+                        TileHandlers(
                             onClick = { viewModel.openSheet(id) },
                             onLongClick = { viewModel.increment(id) },
                             onSwipeRight = { viewModel.increment(id) },
                             onSwipeLeft = { viewModel.decrement(id) },
                         )
+                    if (section.name == "Section 1") {
+                        FoilTile(
+                            slotLabel = row.sticker.id,
+                            displayName = row.sticker.displayName,
+                            quantity = row.quantity,
+                            onClick = handlers.onClick,
+                            onLongClick = handlers.onLongClick,
+                            onSwipeRight = handlers.onSwipeRight,
+                            onSwipeLeft = handlers.onSwipeLeft,
+                        )
                     } else {
                         StickerTile(
-                            slotLabel = tileProps.first,
-                            displayName = tileProps.second,
-                            quantity = tileProps.third,
-                            onClick = { viewModel.openSheet(id) },
-                            onLongClick = { viewModel.increment(id) },
-                            onSwipeRight = { viewModel.increment(id) },
-                            onSwipeLeft = { viewModel.decrement(id) },
+                            slotLabel = row.sticker.id,
+                            displayName = row.sticker.displayName,
+                            quantity = row.quantity,
+                            onClick = handlers.onClick,
+                            onLongClick = handlers.onLongClick,
+                            onSwipeRight = handlers.onSwipeRight,
+                            onSwipeLeft = handlers.onSwipeLeft,
                         )
                     }
                 }
@@ -116,3 +122,10 @@ fun SpecialsScreen(
         }
     }
 }
+
+private data class TileHandlers(
+    val onClick: () -> Unit,
+    val onLongClick: () -> Unit,
+    val onSwipeRight: () -> Unit,
+    val onSwipeLeft: () -> Unit,
+)

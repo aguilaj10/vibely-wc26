@@ -163,6 +163,7 @@
     <string name="import_confirm_action">Importar</string>
     <string name="import_settings_title">Importar desde CSV</string>
     <string name="import_settings_description">Actualizar cantidades en lote desde una exportación de hoja de cálculo</string>
+    <string name="import_error">Importación fallida: %1$s</string>
 
     <!-- Placeholder fallback -->
     <string name="placeholder_coming_soon">Próximamente.</string>
