@@ -49,8 +49,8 @@ import kotlin.math.abs
  *
  * Visual states:
  *   - quantity == 0 → dashed outline, dimmed label   (album-faithful placeholder)
- *   - quantity == 1 → solid fill, normal label       (stuck down)
- *   - quantity ≥ 2  → solid fill + gold ×N badge     (duplicated)
+ *   - quantity == 1 → 1dp solid outline, normal label (stuck down)
+ *   - quantity ≥ 2  → 1dp solid outline + gold ×N badge (duplicated)
  *
  * Gestures (DESIGN.md §6):
  *   - tap                → [onClick] (typically opens detail sheet)
@@ -80,6 +80,7 @@ fun StickerTile(
     val owned = isOwned(quantity)
     val accent = if (isSystemInDarkTheme()) OwnedAccentDark else OwnedAccentLight
     val outline = MaterialTheme.colorScheme.outline
+    val outlineVariant = MaterialTheme.colorScheme.outlineVariant
     val shape = RoundedCornerShape(10.dp)
     val haptics = LocalHapticFeedback.current
     val density = LocalDensity.current
@@ -133,9 +134,17 @@ fun StickerTile(
 
     val containerModifier =
         if (owned) {
-            baseModifier.background(MaterialTheme.colorScheme.surface)
+            baseModifier
+                .background(MaterialTheme.colorScheme.surface)
+                .drawBehind {
+                    drawRoundRect(
+                        color = outlineVariant,
+                        style = Stroke(width = 1.dp.toPx()),
+                        cornerRadius = CornerRadius(10.dp.toPx()),
+                    )
+                }
         } else {
-            // dashed outline for empty slot, faithful to the printed album
+            // empty slot: dashed outline, faithful to the printed album
             baseModifier
                 .background(MaterialTheme.colorScheme.surfaceVariant)
                 .drawBehind {
